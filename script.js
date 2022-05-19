@@ -908,5 +908,15 @@ var tabledata = [
     "Package (k€)": 125,
     "Détails package": "",
     "Remarques libres": ""
+  },
+  {
+    "Entreprise": "Squadracer",
+    "Titre": "Ingénieur Développement",
+    "Années XP": 24,
+    "Brut/CA (k€)": 55,
+    "Contrat": "CDI",
+    "Package (k€)": 55,
+    "Détails package": "",
+    "Remarques libres": ""
   }
 ];
