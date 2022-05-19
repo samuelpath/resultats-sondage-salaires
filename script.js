@@ -895,8 +895,8 @@ var tabledata = [
     "Années XP": 4,
     "Brut/CA (k€)": 70,
     "Contrat": "CDI",
-    "Package (k€)": 300,
-    "Détails package": "70k€ + 230k€ BSPCE (une fois l’intégralité vestée une fois leur coût d’excercice payé)",
+    "Package (k€)": "127,5",
+    "Détails package": "70k€ + 230k€ BSPCE sur 4 ans (une fois l’intégralité vestée une fois leur coût d’excercice payé)",
     "Remarques libres": ""
   },
   {
