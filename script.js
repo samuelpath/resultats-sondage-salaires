@@ -2,898 +2,901 @@ function loadTable() {
     var table = new Tabulator("#example-table", {
         data: tabledata, //assign data to table
         autoColumns: true, //create columns from data field names
+        initialSort:[             //set the initial sort order of the data
+          {column: "Package (k€)", dir:"desc"},
+        ],
     });
 }
 
 var tabledata = [
-    {
-      "Entreprise": "Datadog",
-      "Titre/Poste/Role": "Software engineer senior",
-      "Années d'expérience en dev": "",
-      "Salaire brut en k€ (ou chiffre d'affaires si en indépendant)": 110,
-      "Nature du contrat (CDI, CDD, freelance…)": "CDI",
-      "Package total (k€)": 110,
-      "Détail du package total (options/RSU/BSPCE, bonus, autres avantages, etc.)": "RSU 20k€/ans",
-      "Remarque libre": ""
-    },
-    {
-      "Entreprise": "Grand compte dans le domaine de la mode",
-      "Titre/Poste/Role": "Consultant web performance",
-      "Années d'expérience en dev": "",
-      "Salaire brut en k€ (ou chiffre d'affaires si en indépendant)": 160,
-      "Nature du contrat (CDI, CDD, freelance…)": "Freelance",
-      "Package total (k€)": "",
-      "Détail du package total (options/RSU/BSPCE, bonus, autres avantages, etc.)": "",
-      "Remarque libre": ""
-    },
-    {
-      "Entreprise": "Stuart",
-      "Titre/Poste/Role": "Senior Scala engineer",
-      "Années d'expérience en dev": "",
-      "Salaire brut en k€ (ou chiffre d'affaires si en indépendant)": 76,
-      "Nature du contrat (CDI, CDD, freelance…)": "CDI",
-      "Package total (k€)": "",
-      "Détail du package total (options/RSU/BSPCE, bonus, autres avantages, etc.)": "",
-      "Remarque libre": ""
-    },
-    {
-      "Entreprise": "IDAaaS",
-      "Titre/Poste/Role": "Dev",
-      "Années d'expérience en dev": 10,
-      "Salaire brut en k€ (ou chiffre d'affaires si en indépendant)": 80,
-      "Nature du contrat (CDI, CDD, freelance…)": "CDI",
-      "Package total (k€)": 80,
-      "Détail du package total (options/RSU/BSPCE, bonus, autres avantages, etc.)": "BSPCE (pour 25k€ + 6k€ / an), mais je ne les compte pas dedans, on verra bien",
-      "Remarque libre": ""
-    },
-    {
-      "Entreprise": "Phenix Digital",
-      "Titre/Poste/Role": "VP Engineering",
-      "Années d'expérience en dev": 18,
-      "Salaire brut en k€ (ou chiffre d'affaires si en indépendant)": 120,
-      "Nature du contrat (CDI, CDD, freelance…)": "CDI",
-      "Package total (k€)": "",
-      "Détail du package total (options/RSU/BSPCE, bonus, autres avantages, etc.)": "300k€ d'actions en BSA",
-      "Remarque libre": "En remote depuis Nantes. Freelance pour la meme boîte pendant 10 ans avant de passer en CDI."
-    },
-    {
-      "Entreprise": "Filiale du groupe Accor à Londres",
-      "Titre/Poste/Role": "Senior Data Engineer",
-      "Années d'expérience en dev": 4,
-      "Salaire brut en k€ (ou chiffre d'affaires si en indépendant)": 170,
-      "Nature du contrat (CDI, CDD, freelance…)": "Freelance",
-      "Package total (k€)": "",
-      "Détail du package total (options/RSU/BSPCE, bonus, autres avantages, etc.)": "",
-      "Remarque libre": ""
-    },
-    {
-      "Entreprise": "Datadog",
-      "Titre/Poste/Role": "Senior Software Engineer",
-      "Années d'expérience en dev": 10,
-      "Salaire brut en k€ (ou chiffre d'affaires si en indépendant)": "91,5",
-      "Nature du contrat (CDI, CDD, freelance…)": "CDI",
-      "Package total (k€)": "",
-      "Détail du package total (options/RSU/BSPCE, bonus, autres avantages, etc.)": "9,900 DDOG stock option sur 4 ans + 2,781 DDOG RSU sur 3 ans",
-      "Remarque libre": ""
-    },
-    {
-      "Entreprise": "Platform.sh",
-      "Titre/Poste/Role": "Product Manager Developer Experience",
-      "Années d'expérience en dev": 20,
-      "Salaire brut en k€ (ou chiffre d'affaires si en indépendant)": 72,
-      "Nature du contrat (CDI, CDD, freelance…)": "CDI",
-      "Package total (k€)": 92,
-      "Détail du package total (options/RSU/BSPCE, bonus, autres avantages, etc.)": "BSPCE, Prime télétravail (150€ brut/mois), programme Wellness (remboursement), budget formation (remboursement)",
-      "Remarque libre": ""
-    },
-    {
-      "Entreprise": "Red Hat",
-      "Titre/Poste/Role": "Principal Software Engineer",
-      "Années d'expérience en dev": 20,
-      "Salaire brut en k€ (ou chiffre d'affaires si en indépendant)": 70,
-      "Nature du contrat (CDI, CDD, freelance…)": "CDI",
-      "Package total (k€)": 80,
-      "Détail du package total (options/RSU/BSPCE, bonus, autres avantages, etc.)": "Primes jusqu'à 15% du brut",
-      "Remarque libre": "Les Red Hatters sont conscients d'avoir un salaire moins intéressant que ce qui se pratique dans d'autres boîtes équivalentes, mais que la qualité des conditions travail compense le côté financier"
-    },
-    {
-      "Entreprise": "Freelance",
-      "Titre/Poste/Role": "Tech Lead Front-end",
-      "Années d'expérience en dev": 10,
-      "Salaire brut en k€ (ou chiffre d'affaires si en indépendant)": 105,
-      "Nature du contrat (CDI, CDD, freelance…)": "Freelance",
-      "Package total (k€)": "",
-      "Détail du package total (options/RSU/BSPCE, bonus, autres avantages, etc.)": "",
-      "Remarque libre": ""
-    },
-    {
-      "Entreprise": "Doctolib",
-      "Titre/Poste/Role": "Senior staff engineer",
-      "Années d'expérience en dev": 20,
-      "Salaire brut en k€ (ou chiffre d'affaires si en indépendant)": 94,
-      "Nature du contrat (CDI, CDD, freelance…)": "CDI",
-      "Package total (k€)": "Confidentiel",
-      "Détail du package total (options/RSU/BSPCE, bonus, autres avantages, etc.)": "Confidentiel",
-      "Remarque libre": ""
-    },
-    {
-      "Entreprise": "ZEBet",
-      "Titre/Poste/Role": "Développeur mobile",
-      "Années d'expérience en dev": 6,
-      "Salaire brut en k€ (ou chiffre d'affaires si en indépendant)": 144,
-      "Nature du contrat (CDI, CDD, freelance…)": "Freelance",
-      "Package total (k€)": "",
-      "Détail du package total (options/RSU/BSPCE, bonus, autres avantages, etc.)": "",
-      "Remarque libre": ""
-    },
-    {
-      "Entreprise": "Swile",
-      "Titre/Poste/Role": "Senior Software Engineer",
-      "Années d'expérience en dev": 9,
-      "Salaire brut en k€ (ou chiffre d'affaires si en indépendant)": 61,
-      "Nature du contrat (CDI, CDD, freelance…)": "CDI",
-      "Package total (k€)": 63,
-      "Détail du package total (options/RSU/BSPCE, bonus, autres avantages, etc.)": "",
-      "Remarque libre": ""
-    },
-    {
-      "Entreprise": "Mirakl",
-      "Titre/Poste/Role": "Senior Software Engineer",
-      "Années d'expérience en dev": 13,
-      "Salaire brut en k€ (ou chiffre d'affaires si en indépendant)": 71,
-      "Nature du contrat (CDI, CDD, freelance…)": "CDI",
-      "Package total (k€)": 71,
-      "Détail du package total (options/RSU/BSPCE, bonus, autres avantages, etc.)": "",
-      "Remarque libre": ""
-    },
-    {
-      "Entreprise": "Non renseigné",
-      "Titre/Poste/Role": "DevOps",
-      "Années d'expérience en dev": 4,
-      "Salaire brut en k€ (ou chiffre d'affaires si en indépendant)": 52,
-      "Nature du contrat (CDI, CDD, freelance…)": "Cdi",
-      "Package total (k€)": "",
-      "Détail du package total (options/RSU/BSPCE, bonus, autres avantages, etc.)": "",
-      "Remarque libre": ""
-    },
-    {
-      "Entreprise": "Non renseigné",
-      "Titre/Poste/Role": "Tech Lead",
-      "Années d'expérience en dev": 7,
-      "Salaire brut en k€ (ou chiffre d'affaires si en indépendant)": 110,
-      "Nature du contrat (CDI, CDD, freelance…)": "CDI",
-      "Package total (k€)": "",
-      "Détail du package total (options/RSU/BSPCE, bonus, autres avantages, etc.)": "BSPCE",
-      "Remarque libre": ""
-    },
-    {
-      "Entreprise": "GAFAM",
-      "Titre/Poste/Role": "Sr Dev Advocate",
-      "Années d'expérience en dev": 14,
-      "Salaire brut en k€ (ou chiffre d'affaires si en indépendant)": 98,
-      "Nature du contrat (CDI, CDD, freelance…)": "CDI",
-      "Package total (k€)": 145,
-      "Détail du package total (options/RSU/BSPCE, bonus, autres avantages, etc.)": "Annuel: 20% bonus cash, 30k$ RSU sur 4 ans. Embauche: 50k€ cash, 150k$ RSU sur 4 ans, 1.5k€ d'avantages CE, beaucoup de congés",
-      "Remarque libre": ""
-    },
-    {
-      "Entreprise": "Cardiff",
-      "Titre/Poste/Role": "Dev backend senior",
-      "Années d'expérience en dev": 11,
-      "Salaire brut en k€ (ou chiffre d'affaires si en indépendant)": 140,
-      "Nature du contrat (CDI, CDD, freelance…)": "Freelance",
-      "Package total (k€)": "",
-      "Détail du package total (options/RSU/BSPCE, bonus, autres avantages, etc.)": "",
-      "Remarque libre": ""
-    },
-    {
-      "Entreprise": "Datadog",
-      "Titre/Poste/Role": "Software Engineer 2",
-      "Années d'expérience en dev": 7,
-      "Salaire brut en k€ (ou chiffre d'affaires si en indépendant)": 75,
-      "Nature du contrat (CDI, CDD, freelance…)": "CDI",
-      "Package total (k€)": 145,
-      "Détail du package total (options/RSU/BSPCE, bonus, autres avantages, etc.)": "80k$ de RSU sur 4 ans à l'embauche + 2 fois 100k$ de recharge \"au mérite\" en 2 ans = 280k$",
-      "Remarque libre": "La volatilité de l'action et l'évolution du cours $\\€ font pas mal bouger le package avec le temps, et complique bien la déclaration d'impôts lors des ventes 😁. Sans compter le programme d'ESPP pour acheter des actions à -15%."
-    },
-    {
-      "Entreprise": "Mural",
-      "Titre/Poste/Role": "Director of Engineering",
-      "Années d'expérience en dev": 15,
-      "Salaire brut en k€ (ou chiffre d'affaires si en indépendant)": 150,
-      "Nature du contrat (CDI, CDD, freelance…)": "CDI",
-      "Package total (k€)": 150,
-      "Détail du package total (options/RSU/BSPCE, bonus, autres avantages, etc.)": "Stock options en plus mais confidentiel",
-      "Remarque libre": ""
-    },
-    {
-      "Entreprise": "Shopify",
-      "Titre/Poste/Role": "Staff Developer",
-      "Années d'expérience en dev": 25,
-      "Salaire brut en k€ (ou chiffre d'affaires si en indépendant)": 140,
-      "Nature du contrat (CDI, CDD, freelance…)": "CDI",
-      "Package total (k€)": 215,
-      "Détail du package total (options/RSU/BSPCE, bonus, autres avantages, etc.)": "RSU",
-      "Remarque libre": ""
-    },
-    {
-      "Entreprise": "Non renseigné",
-      "Titre/Poste/Role": "Senior Software Engineer",
-      "Années d'expérience en dev": 10,
-      "Salaire brut en k€ (ou chiffre d'affaires si en indépendant)": 78,
-      "Nature du contrat (CDI, CDD, freelance…)": "CDI",
-      "Package total (k€)": 118,
-      "Détail du package total (options/RSU/BSPCE, bonus, autres avantages, etc.)": "",
-      "Remarque libre": ""
-    },
-    {
-      "Entreprise": "Refer",
-      "Titre/Poste/Role": "Lead Frontend",
-      "Années d'expérience en dev": 13,
-      "Salaire brut en k€ (ou chiffre d'affaires si en indépendant)": 63,
-      "Nature du contrat (CDI, CDD, freelance…)": "CDI",
-      "Package total (k€)": 63,
-      "Détail du package total (options/RSU/BSPCE, bonus, autres avantages, etc.)": "",
-      "Remarque libre": "Je suis à mi-temps (24h/semaine) mais j'ai indiqué l'équivalent si plein temps."
-    },
-    {
-      "Entreprise": "Obat",
-      "Titre/Poste/Role": "Lead Frontend Developer",
-      "Années d'expérience en dev": 12,
-      "Salaire brut en k€ (ou chiffre d'affaires si en indépendant)": 60,
-      "Nature du contrat (CDI, CDD, freelance…)": "CDI",
-      "Package total (k€)": "",
-      "Détail du package total (options/RSU/BSPCE, bonus, autres avantages, etc.)": "",
-      "Remarque libre": ""
-    },
-    {
-      "Entreprise": "Dans la foodtech",
-      "Titre/Poste/Role": "Lead tech",
-      "Années d'expérience en dev": 12,
-      "Salaire brut en k€ (ou chiffre d'affaires si en indépendant)": 150,
-      "Nature du contrat (CDI, CDD, freelance…)": "Freelance",
-      "Package total (k€)": "",
-      "Détail du package total (options/RSU/BSPCE, bonus, autres avantages, etc.)": "",
-      "Remarque libre": ""
-    },
-    {
-      "Entreprise": "Efficity",
-      "Titre/Poste/Role": "Architecte Logiciel",
-      "Années d'expérience en dev": 11,
-      "Salaire brut en k€ (ou chiffre d'affaires si en indépendant)": 72,
-      "Nature du contrat (CDI, CDD, freelance…)": "CDI",
-      "Package total (k€)": 72,
-      "Détail du package total (options/RSU/BSPCE, bonus, autres avantages, etc.)": "",
-      "Remarque libre": ""
-    },
-    {
-      "Entreprise": "GitGuardian",
-      "Titre/Poste/Role": "Engineering Lead",
-      "Années d'expérience en dev": 12,
-      "Salaire brut en k€ (ou chiffre d'affaires si en indépendant)": 85,
-      "Nature du contrat (CDI, CDD, freelance…)": "CDI",
-      "Package total (k€)": 115,
-      "Détail du package total (options/RSU/BSPCE, bonus, autres avantages, etc.)": "76,5k fixe + 8.5k de variable (85k) + 30k de BSPCE",
-      "Remarque libre": ""
-    },
-    {
-      "Entreprise": "Datadog",
-      "Titre/Poste/Role": "Senior iOS Engineer",
-      "Années d'expérience en dev": 12,
-      "Salaire brut en k€ (ou chiffre d'affaires si en indépendant)": 95,
-      "Nature du contrat (CDI, CDD, freelance…)": "CDI",
-      "Package total (k€)": 250,
-      "Détail du package total (options/RSU/BSPCE, bonus, autres avantages, etc.)": "RSU, ESPP, Participation",
-      "Remarque libre": "Pour calculer le package total j'ai multiplié le nombre de RSU que j'ai par la valeur *à ce jour*  du \"200-Day Moving Average\" de DDOG (soit 148$), et j'ai divisé le tout par 5 ans (il faut que je reste en tout 5 ans à Datadog pour pouvoir vester toutes ces RSU). Néanmoins, l'action est très variable. Depuis que je suis à Datadog, le min est à 37$ et le max à 198$. C'est donc très dûr de faire une moyenne tant que c'est pas vendu."
-    },
-    {
-      "Entreprise": "Non renseigné",
-      "Titre/Poste/Role": "Developer Relations Engineer",
-      "Années d'expérience en dev": 1,
-      "Salaire brut en k€ (ou chiffre d'affaires si en indépendant)": 100,
-      "Nature du contrat (CDI, CDD, freelance…)": "CDI",
-      "Package total (k€)": 105,
-      "Détail du package total (options/RSU/BSPCE, bonus, autres avantages, etc.)": "10k$ options",
-      "Remarque libre": ""
-    },
-    {
-      "Entreprise": "Ornikar",
-      "Titre/Poste/Role": "Senior backend developer",
-      "Années d'expérience en dev": 13,
-      "Salaire brut en k€ (ou chiffre d'affaires si en indépendant)": 64,
-      "Nature du contrat (CDI, CDD, freelance…)": "CDI",
-      "Package total (k€)": 64,
-      "Détail du package total (options/RSU/BSPCE, bonus, autres avantages, etc.)": "Tickets resto",
-      "Remarque libre": ""
-    },
-    {
-      "Entreprise": "Inqom",
-      "Titre/Poste/Role": "Engineering lead",
-      "Années d'expérience en dev": 12,
-      "Salaire brut en k€ (ou chiffre d'affaires si en indépendant)": 68,
-      "Nature du contrat (CDI, CDD, freelance…)": "CDI",
-      "Package total (k€)": 68,
-      "Détail du package total (options/RSU/BSPCE, bonus, autres avantages, etc.)": "BSPCE",
-      "Remarque libre": "BSPCE difficile à chiffrer (>30K)"
-    },
-    {
-      "Entreprise": "Lucca",
-      "Titre/Poste/Role": "Engineering Manager",
-      "Années d'expérience en dev": 20,
-      "Salaire brut en k€ (ou chiffre d'affaires si en indépendant)": 71,
-      "Nature du contrat (CDI, CDD, freelance…)": "CDI",
-      "Package total (k€)": "",
-      "Détail du package total (options/RSU/BSPCE, bonus, autres avantages, etc.)": "Associé",
-      "Remarque libre": "Chez Lucca, salaire libre pour les + de 3 ans. Mais il faut savoir le justifier."
-    },
-    {
-      "Entreprise": "Sunday",
-      "Titre/Poste/Role": "Software engineer",
-      "Années d'expérience en dev": 10,
-      "Salaire brut en k€ (ou chiffre d'affaires si en indépendant)": 60,
-      "Nature du contrat (CDI, CDD, freelance…)": "CDI",
-      "Package total (k€)": 80,
-      "Détail du package total (options/RSU/BSPCE, bonus, autres avantages, etc.)": "Aussi vacances illimitées, congés paternité de 16 semaines, et d'autres choses",
-      "Remarque libre": "Je ne suis \"que\" software engineer, en passant senior j'espère bientôt le package va évoluer."
-    },
-    {
-      "Entreprise": "Non renseigné",
-      "Titre/Poste/Role": "Directeur technique",
-      "Années d'expérience en dev": 20,
-      "Salaire brut en k€ (ou chiffre d'affaires si en indépendant)": 95,
-      "Nature du contrat (CDI, CDD, freelance…)": "CDI",
-      "Package total (k€)": 105,
-      "Détail du package total (options/RSU/BSPCE, bonus, autres avantages, etc.)": "Bonus",
-      "Remarque libre": ""
-    },
-    {
-      "Entreprise": "Predictice",
-      "Titre/Poste/Role": "Head of Data",
-      "Années d'expérience en dev": 17,
-      "Salaire brut en k€ (ou chiffre d'affaires si en indépendant)": "77,5",
-      "Nature du contrat (CDI, CDD, freelance…)": "CDI",
-      "Package total (k€)": "77,5",
-      "Détail du package total (options/RSU/BSPCE, bonus, autres avantages, etc.)": "J’attends encore les BSPCE",
-      "Remarque libre": ""
-    },
-    {
-      "Entreprise": "Singulart",
-      "Titre/Poste/Role": "Lead Front End Developer",
-      "Années d'expérience en dev": 7,
-      "Salaire brut en k€ (ou chiffre d'affaires si en indépendant)": 61,
-      "Nature du contrat (CDI, CDD, freelance…)": "CDI",
-      "Package total (k€)": 64,
-      "Détail du package total (options/RSU/BSPCE, bonus, autres avantages, etc.)": "3k€ bonus",
-      "Remarque libre": "- J'ai mis ma rémunération si je ne travaillais pas au 4/5ème. -20% vu que 4/5ème. - Full remote, mais venue régulière sur Paris"
-    },
-    {
-      "Entreprise": "Salsify",
-      "Titre/Poste/Role": "Senior SRE",
-      "Années d'expérience en dev": 15,
-      "Salaire brut en k€ (ou chiffre d'affaires si en indépendant)": 80,
-      "Nature du contrat (CDI, CDD, freelance…)": "CDI",
-      "Package total (k€)": 80,
-      "Détail du package total (options/RSU/BSPCE, bonus, autres avantages, etc.)": "",
-      "Remarque libre": ""
-    },
-    {
-      "Entreprise": "Deezer",
-      "Titre/Poste/Role": "Lead SRE",
-      "Années d'expérience en dev": 12,
-      "Salaire brut en k€ (ou chiffre d'affaires si en indépendant)": 70,
-      "Nature du contrat (CDI, CDD, freelance…)": "CDI",
-      "Package total (k€)": 76,
-      "Détail du package total (options/RSU/BSPCE, bonus, autres avantages, etc.)": "Astreinte",
-      "Remarque libre": ""
-    },
-    {
-      "Entreprise": "Yousign",
-      "Titre/Poste/Role": "Dev back ou front senior 3.3",
-      "Années d'expérience en dev": 10,
-      "Salaire brut en k€ (ou chiffre d'affaires si en indépendant)": 66,
-      "Nature du contrat (CDI, CDD, freelance…)": "CDI",
-      "Package total (k€)": "66,15",
-      "Détail du package total (options/RSU/BSPCE, bonus, autres avantages, etc.)": "Frais remote mobilier et matériel, 30€ d'internet chaque mois, ticket resto Swile, BSPCE, 10 RTT, 1 congé d'ancienneté tous les 2 ans...",
-      "Remarque libre": "https://blog.yousign.io/posts/parcours-carriere-engineering-chez-yousign"
-    },
-    {
-      "Entreprise": "Alan",
-      "Titre/Poste/Role": "Senior Software Engineer",
-      "Années d'expérience en dev": 16,
-      "Salaire brut en k€ (ou chiffre d'affaires si en indépendant)": 96,
-      "Nature du contrat (CDI, CDD, freelance…)": "CDI",
-      "Package total (k€)": 141,
-      "Détail du package total (options/RSU/BSPCE, bonus, autres avantages, etc.)": "BSPCE",
-      "Remarque libre": ""
-    },
-    {
-      "Entreprise": "Sunday",
-      "Titre/Poste/Role": "Senior Software Engineer",
-      "Années d'expérience en dev": 13,
-      "Salaire brut en k€ (ou chiffre d'affaires si en indépendant)": 75,
-      "Nature du contrat (CDI, CDD, freelance…)": "CDI",
-      "Package total (k€)": 80,
-      "Détail du package total (options/RSU/BSPCE, bonus, autres avantages, etc.)": "5k€ de variable + 15k€ de BSPCE",
-      "Remarque libre": ""
-    },
-    {
-      "Entreprise": "Sunday",
-      "Titre/Poste/Role": "Staff Engineer",
-      "Années d'expérience en dev": 16,
-      "Salaire brut en k€ (ou chiffre d'affaires si en indépendant)": 95,
-      "Nature du contrat (CDI, CDD, freelance…)": "CDI",
-      "Package total (k€)": 115,
-      "Détail du package total (options/RSU/BSPCE, bonus, autres avantages, etc.)": "20k€ BSPCE",
-      "Remarque libre": ""
-    },
-    {
-      "Entreprise": "Ingenico",
-      "Titre/Poste/Role": "Software developer",
-      "Années d'expérience en dev": 4,
-      "Salaire brut en k€ (ou chiffre d'affaires si en indépendant)": 50,
-      "Nature du contrat (CDI, CDD, freelance…)": "CDI",
-      "Package total (k€)": 55,
-      "Détail du package total (options/RSU/BSPCE, bonus, autres avantages, etc.)": "",
-      "Remarque libre": ""
-    },
-    {
-      "Entreprise": "Elastic",
-      "Titre/Poste/Role": "Software engineer II",
-      "Années d'expérience en dev": 4,
-      "Salaire brut en k€ (ou chiffre d'affaires si en indépendant)": 75,
-      "Nature du contrat (CDI, CDD, freelance…)": "CDI",
-      "Package total (k€)": "Difficile à calculer",
-      "Détail du package total (options/RSU/BSPCE, bonus, autres avantages, etc.)": "RSU (vesting sur 4 ans / 2 ans) + nouvelles acquisitions de RSUs chaque année",
-      "Remarque libre": ""
-    },
-    {
-      "Entreprise": "Comet",
-      "Titre/Poste/Role": "CTO",
-      "Années d'expérience en dev": 20,
-      "Salaire brut en k€ (ou chiffre d'affaires si en indépendant)": 115,
-      "Nature du contrat (CDI, CDD, freelance…)": "CDI",
-      "Package total (k€)": 115,
-      "Détail du package total (options/RSU/BSPCE, bonus, autres avantages, etc.)": "BSPCE",
-      "Remarque libre": ""
-    },
-    {
-      "Entreprise": "DALKIA",
-      "Titre/Poste/Role": "Lead développeur Ionic",
-      "Années d'expérience en dev": 15,
-      "Salaire brut en k€ (ou chiffre d'affaires si en indépendant)": 116,
-      "Nature du contrat (CDI, CDD, freelance…)": "Freelance",
-      "Package total (k€)": "",
-      "Détail du package total (options/RSU/BSPCE, bonus, autres avantages, etc.)": "TJM DE 550€/jour sur 221 jour annuel, full télétravail et l’un des seuls de DALKIA",
-      "Remarque libre": "En free-lance full télétravail depuis 2017. Je cumule avec un poste en Irlande 2j semaine en remote aussi."
-    },
-    {
-      "Entreprise": "Datadog",
-      "Titre/Poste/Role": "Staff Software Engineer",
-      "Années d'expérience en dev": 20,
-      "Salaire brut en k€ (ou chiffre d'affaires si en indépendant)": 140,
-      "Nature du contrat (CDI, CDD, freelance…)": "CDI",
-      "Package total (k€)": 265,
-      "Détail du package total (options/RSU/BSPCE, bonus, autres avantages, etc.)": "RSU",
-      "Remarque libre": "Le package avec les RSU est assez volatile à Datadog. Pour être plus précis ça correspond à un batch initial de 300,000$ (sur 4 ans) à l'embauche puis un refresh de 300,000$ (toujours sur 4 ans) 2 ans plus tard."
-    },
-    {
-      "Entreprise": "Non renseigné",
-      "Titre/Poste/Role": "Devops",
-      "Années d'expérience en dev": 10,
-      "Salaire brut en k€ (ou chiffre d'affaires si en indépendant)": 75,
-      "Nature du contrat (CDI, CDD, freelance…)": "CDI",
-      "Package total (k€)": 110,
-      "Détail du package total (options/RSU/BSPCE, bonus, autres avantages, etc.)": "35k€ BCPE",
-      "Remarque libre": ""
-    },
-    {
-      "Entreprise": "Daevel",
-      "Titre/Poste/Role": "SRE",
-      "Années d'expérience en dev": 10,
-      "Salaire brut en k€ (ou chiffre d'affaires si en indépendant)": 75,
-      "Nature du contrat (CDI, CDD, freelance…)": "CDI",
-      "Package total (k€)": "",
-      "Détail du package total (options/RSU/BSPCE, bonus, autres avantages, etc.)": "",
-      "Remarque libre": ""
-    },
-    {
-      "Entreprise": "Alma",
-      "Titre/Poste/Role": "Staff Engineer",
-      "Années d'expérience en dev": 22,
-      "Salaire brut en k€ (ou chiffre d'affaires si en indépendant)": 75,
-      "Nature du contrat (CDI, CDD, freelance…)": "CDI",
-      "Package total (k€)": 75,
-      "Détail du package total (options/RSU/BSPCE, bonus, autres avantages, etc.)": "+ BSPCE",
-      "Remarque libre": "Difficile d'évaluer les BSPCE..."
-    },
-    {
-      "Entreprise": "Renault digital",
-      "Titre/Poste/Role": "Data engineer",
-      "Années d'expérience en dev": 11,
-      "Salaire brut en k€ (ou chiffre d'affaires si en indépendant)": 62,
-      "Nature du contrat (CDI, CDD, freelance…)": "CDI",
-      "Package total (k€)": "",
-      "Détail du package total (options/RSU/BSPCE, bonus, autres avantages, etc.)": "",
-      "Remarque libre": ""
-    },
-    {
-      "Entreprise": "Sonar",
-      "Titre/Poste/Role": "Développeur",
-      "Années d'expérience en dev": 12,
-      "Salaire brut en k€ (ou chiffre d'affaires si en indépendant)": 71,
-      "Nature du contrat (CDI, CDD, freelance…)": "CDI",
-      "Package total (k€)": "",
-      "Détail du package total (options/RSU/BSPCE, bonus, autres avantages, etc.)": "",
-      "Remarque libre": ""
-    },
-    {
-      "Entreprise": "Qwant",
-      "Titre/Poste/Role": "Research Engineer",
-      "Années d'expérience en dev": 9,
-      "Salaire brut en k€ (ou chiffre d'affaires si en indépendant)": 68,
-      "Nature du contrat (CDI, CDD, freelance…)": "CDI",
-      "Package total (k€)": 68,
-      "Détail du package total (options/RSU/BSPCE, bonus, autres avantages, etc.)": "",
-      "Remarque libre": "J'ai un profil bâtard, je suis pas vraiment dev je fais plutôt de la recherche appliquée"
-    },
-    {
-      "Entreprise": "Université Paris 8",
-      "Titre/Poste/Role": "Responsable d'équipe / CP technique",
-      "Années d'expérience en dev": 27,
-      "Salaire brut en k€ (ou chiffre d'affaires si en indépendant)": 60,
-      "Nature du contrat (CDI, CDD, freelance…)": "CDI",
-      "Package total (k€)": "",
-      "Détail du package total (options/RSU/BSPCE, bonus, autres avantages, etc.)": "",
-      "Remarque libre": ""
-    },
-    {
-      "Entreprise": "Getaround",
-      "Titre/Poste/Role": "Senior Backend Engineer",
-      "Années d'expérience en dev": 7,
-      "Salaire brut en k€ (ou chiffre d'affaires si en indépendant)": 75,
-      "Nature du contrat (CDI, CDD, freelance…)": "CDI",
-      "Package total (k€)": 75,
-      "Détail du package total (options/RSU/BSPCE, bonus, autres avantages, etc.)": "",
-      "Remarque libre": ""
-    },
-    {
-      "Entreprise": "Sunday",
-      "Titre/Poste/Role": "Software engineer",
-      "Années d'expérience en dev": 12,
-      "Salaire brut en k€ (ou chiffre d'affaires si en indépendant)": 65,
-      "Nature du contrat (CDI, CDD, freelance…)": "CDI",
-      "Package total (k€)": 83,
-      "Détail du package total (options/RSU/BSPCE, bonus, autres avantages, etc.)": "15k€ BSPCE",
-      "Remarque libre": ""
-    },
-    {
-      "Entreprise": "Smile",
-      "Titre/Poste/Role": "Ingénieur R&D DevOps/Dev",
-      "Années d'expérience en dev": 21,
-      "Salaire brut en k€ (ou chiffre d'affaires si en indépendant)": 62,
-      "Nature du contrat (CDI, CDD, freelance…)": "CDI",
-      "Package total (k€)": "",
-      "Détail du package total (options/RSU/BSPCE, bonus, autres avantages, etc.)": "",
-      "Remarque libre": ""
-    },
-    {
-      "Entreprise": "Shopify",
-      "Titre/Poste/Role": "Senior Developer",
-      "Années d'expérience en dev": 12,
-      "Salaire brut en k€ (ou chiffre d'affaires si en indépendant)": 99,
-      "Nature du contrat (CDI, CDD, freelance…)": "CDI",
-      "Package total (k€)": 140,
-      "Détail du package total (options/RSU/BSPCE, bonus, autres avantages, etc.)": "Lifestyle grant 3700€, RSU USD 112K",
-      "Remarque libre": "Pas sûr que les RSU seront renouvelés tous les ans sous forme de refresher."
-    },
-    {
-      "Entreprise": "Dataiku",
-      "Titre/Poste/Role": "Senior dev fullstack",
-      "Années d'expérience en dev": 12,
-      "Salaire brut en k€ (ou chiffre d'affaires si en indépendant)": 75,
-      "Nature du contrat (CDI, CDD, freelance…)": "CDI",
-      "Package total (k€)": "",
-      "Détail du package total (options/RSU/BSPCE, bonus, autres avantages, etc.)": "80k€ de BSPCE",
-      "Remarque libre": ""
-    },
-    {
-      "Entreprise": "TechProductInsight",
-      "Titre/Poste/Role": "Dirigeant dev fullstack",
-      "Années d'expérience en dev": 7,
-      "Salaire brut en k€ (ou chiffre d'affaires si en indépendant)": 141,
-      "Nature du contrat (CDI, CDD, freelance…)": "Freelance",
-      "Package total (k€)": "",
-      "Détail du package total (options/RSU/BSPCE, bonus, autres avantages, etc.)": "",
-      "Remarque libre": "En freelance je peux déduire des charges et travailler avec le matos et équipement que je veux"
-    },
-    {
-      "Entreprise": "Non renseigné",
-      "Titre/Poste/Role": "Senior developer",
-      "Années d'expérience en dev": "",
-      "Salaire brut en k€ (ou chiffre d'affaires si en indépendant)": 200,
-      "Nature du contrat (CDI, CDD, freelance…)": "Freelance",
-      "Package total (k€)": 200,
-      "Détail du package total (options/RSU/BSPCE, bonus, autres avantages, etc.)": "",
-      "Remarque libre": ""
-    },
-    {
-      "Entreprise": "IBM",
-      "Titre/Poste/Role": "Senior Software Engineer",
-      "Années d'expérience en dev": 16,
-      "Salaire brut en k€ (ou chiffre d'affaires si en indépendant)": 80,
-      "Nature du contrat (CDI, CDD, freelance…)": "CDI",
-      "Package total (k€)": "",
-      "Détail du package total (options/RSU/BSPCE, bonus, autres avantages, etc.)": "Actions à 85% du prix public avec 10% du salaire mensuel, au 4/5ème",
-      "Remarque libre": ""
-    },
-    {
-      "Entreprise": "Ornikar",
-      "Titre/Poste/Role": "Senior backend developer",
-      "Années d'expérience en dev": 10,
-      "Salaire brut en k€ (ou chiffre d'affaires si en indépendant)": 62,
-      "Nature du contrat (CDI, CDD, freelance…)": "CDI",
-      "Package total (k€)": 62,
-      "Détail du package total (options/RSU/BSPCE, bonus, autres avantages, etc.)": "",
-      "Remarque libre": ""
-    },
-    {
-      "Entreprise": "Prisma Media",
-      "Titre/Poste/Role": "Lead Developer",
-      "Années d'expérience en dev": 12,
-      "Salaire brut en k€ (ou chiffre d'affaires si en indépendant)": 68,
-      "Nature du contrat (CDI, CDD, freelance…)": "CDI",
-      "Package total (k€)": "",
-      "Détail du package total (options/RSU/BSPCE, bonus, autres avantages, etc.)": "Convention cadre de la presse magazine. 9 semaines de congés. CE. Mutuelle. Tickets resto. Cantine. Télétravail.",
-      "Remarque libre": ""
-    },
-    {
-      "Entreprise": "Beta Gouv",
-      "Titre/Poste/Role": "Développeur Backend Python",
-      "Années d'expérience en dev": 20,
-      "Salaire brut en k€ (ou chiffre d'affaires si en indépendant)": 130,
-      "Nature du contrat (CDI, CDD, freelance…)": "Freelance",
-      "Package total (k€)": "",
-      "Détail du package total (options/RSU/BSPCE, bonus, autres avantages, etc.)": "",
-      "Remarque libre": "Au 4/5ème"
-    },
-    {
-      "Entreprise": "Lunex",
-      "Titre/Poste/Role": "Full stack dev",
-      "Années d'expérience en dev": 7,
-      "Salaire brut en k€ (ou chiffre d'affaires si en indépendant)": 94,
-      "Nature du contrat (CDI, CDD, freelance…)": "CDI",
-      "Package total (k€)": 120,
-      "Détail du package total (options/RSU/BSPCE, bonus, autres avantages, etc.)": "Bonus, stocks",
-      "Remarque libre": ""
-    },
-    {
-      "Entreprise": "Treezor",
-      "Titre/Poste/Role": "Lead Dev Go",
-      "Années d'expérience en dev": 15,
-      "Salaire brut en k€ (ou chiffre d'affaires si en indépendant)": 73,
-      "Nature du contrat (CDI, CDD, freelance…)": "CDI",
-      "Package total (k€)": 75,
-      "Détail du package total (options/RSU/BSPCE, bonus, autres avantages, etc.)": "Prime de resultat de 3k€",
-      "Remarque libre": ""
-    },
-    {
-      "Entreprise": "Non renseigné",
-      "Titre/Poste/Role": "Senior Dev Go",
-      "Années d'expérience en dev": 17,
-      "Salaire brut en k€ (ou chiffre d'affaires si en indépendant)": 100,
-      "Nature du contrat (CDI, CDD, freelance…)": "CDI",
-      "Package total (k€)": 300,
-      "Détail du package total (options/RSU/BSPCE, bonus, autres avantages, etc.)": "BSPCE, meilleur package wemind",
-      "Remarque libre": ""
-    },
-    {
-      "Entreprise": "Lifen",
-      "Titre/Poste/Role": "Senior front-end engineer",
-      "Années d'expérience en dev": 12,
-      "Salaire brut en k€ (ou chiffre d'affaires si en indépendant)": 65,
-      "Nature du contrat (CDI, CDD, freelance…)": "CDI",
-      "Package total (k€)": "",
-      "Détail du package total (options/RSU/BSPCE, bonus, autres avantages, etc.)": "12k BSPCE",
-      "Remarque libre": ""
-    },
-    {
-      "Entreprise": "Meritis",
-      "Titre/Poste/Role": "Architecte logiciel",
-      "Années d'expérience en dev": 11,
-      "Salaire brut en k€ (ou chiffre d'affaires si en indépendant)": 65,
-      "Nature du contrat (CDI, CDD, freelance…)": "CDI",
-      "Package total (k€)": 65,
-      "Détail du package total (options/RSU/BSPCE, bonus, autres avantages, etc.)": "Salaire fixe uniquement",
-      "Remarque libre": ""
-    },
-    {
-      "Entreprise": "Contentsquare",
-      "Titre/Poste/Role": "Customer Success on a Product for Dev (so a dev is needed)",
-      "Années d'expérience en dev": 15,
-      "Salaire brut en k€ (ou chiffre d'affaires si en indépendant)": 60,
-      "Nature du contrat (CDI, CDD, freelance…)": "CDI",
-      "Package total (k€)": 75,
-      "Détail du package total (options/RSU/BSPCE, bonus, autres avantages, etc.)": "60k€ + bonus on objective + BSPCE à deux ans + divers indemnités et soutiens pour un montant de 3k€/an (soutiens aux dons caritatifs, welfare sport alloyancd, prise en charge psy, des trucs pour les enfants…)",
-      "Remarque libre": ""
-    },
-    {
-      "Entreprise": "Emplifi.io",
-      "Titre/Poste/Role": "Team Lead - Dev",
-      "Années d'expérience en dev": 8,
-      "Salaire brut en k€ (ou chiffre d'affaires si en indépendant)": 68,
-      "Nature du contrat (CDI, CDD, freelance…)": "CDI",
-      "Package total (k€)": 68,
-      "Détail du package total (options/RSU/BSPCE, bonus, autres avantages, etc.)": "RAS mais avantages parentaux en cours de négo, vacances 5+2 RTT semaines",
-      "Remarque libre": "Poste que j'ai gardé à mon retour d'expatriation de Montréal (4 ans là bas dont 2 ans dans cette entreprise). Pas trouvé mieux en Normandie niveau salaire/conditions de travail donc j'y reste, la flemme de chercher mieux sur Paris pour l'instant"
-    },
-    {
-      "Entreprise": "DeepReach",
-      "Titre/Poste/Role": "Senior Software Developpr",
-      "Années d'expérience en dev": 12,
-      "Salaire brut en k€ (ou chiffre d'affaires si en indépendant)": 80,
-      "Nature du contrat (CDI, CDD, freelance…)": "CDI",
-      "Package total (k€)": 95,
-      "Détail du package total (options/RSU/BSPCE, bonus, autres avantages, etc.)": "BSPCE 15k€",
-      "Remarque libre": ""
-    },
-    {
-      "Entreprise": "Microsoft",
-      "Titre/Poste/Role": "Principal Software Engineer",
-      "Années d'expérience en dev": 20,
-      "Salaire brut en k€ (ou chiffre d'affaires si en indépendant)": 120,
-      "Nature du contrat (CDI, CDD, freelance…)": "CDI",
-      "Package total (k€)": 200,
-      "Détail du package total (options/RSU/BSPCE, bonus, autres avantages, etc.)": "40k€ Bonus Cash et 40k€ Bonus RSU",
-      "Remarque libre": ""
-    },
-    {
-      "Entreprise": "api.video",
-      "Titre/Poste/Role": "Infra",
-      "Années d'expérience en dev": 9,
-      "Salaire brut en k€ (ou chiffre d'affaires si en indépendant)": 120,
-      "Nature du contrat (CDI, CDD, freelance…)": "CDI",
-      "Package total (k€)": 180,
-      "Détail du package total (options/RSU/BSPCE, bonus, autres avantages, etc.)": "BSCPE",
-      "Remarque libre": ""
-    },
-    {
-      "Entreprise": "KissKissBankBank",
-      "Titre/Poste/Role": "Lead dev back (Ruby)",
-      "Années d'expérience en dev": 10,
-      "Salaire brut en k€ (ou chiffre d'affaires si en indépendant)": 78,
-      "Nature du contrat (CDI, CDD, freelance…)": "CDI",
-      "Package total (k€)": "",
-      "Détail du package total (options/RSU/BSPCE, bonus, autres avantages, etc.)": "5k€ notes de frais, RTT, tickets resto",
-      "Remarque libre": ""
-    },
-    {
-      "Entreprise": "Ledger",
-      "Titre/Poste/Role": "Principal Software Engineer",
-      "Années d'expérience en dev": 22,
-      "Salaire brut en k€ (ou chiffre d'affaires si en indépendant)": 95,
-      "Nature du contrat (CDI, CDD, freelance…)": "CDI",
-      "Package total (k€)": 140,
-      "Détail du package total (options/RSU/BSPCE, bonus, autres avantages, etc.)": "BSPCE 35k€, variable 10k€",
-      "Remarque libre": ""
-    },
-    {
-      "Entreprise": "Getaround",
-      "Titre/Poste/Role": "Senior Full-Stack Engineer",
-      "Années d'expérience en dev": 6,
-      "Salaire brut en k€ (ou chiffre d'affaires si en indépendant)": 65,
-      "Nature du contrat (CDI, CDD, freelance…)": "CDI",
-      "Package total (k€)": 65,
-      "Détail du package total (options/RSU/BSPCE, bonus, autres avantages, etc.)": "5000 RSU (valeur pas claire)",
-      "Remarque libre": ""
-    },
-    {
-      "Entreprise": "Swile",
-      "Titre/Poste/Role": "iOS senior developer",
-      "Années d'expérience en dev": 14,
-      "Salaire brut en k€ (ou chiffre d'affaires si en indépendant)": 61,
-      "Nature du contrat (CDI, CDD, freelance…)": "CDI",
-      "Package total (k€)": 61,
-      "Détail du package total (options/RSU/BSPCE, bonus, autres avantages, etc.)": "",
-      "Remarque libre": ""
-    },
-    {
-      "Entreprise": "Non renseigné",
-      "Titre/Poste/Role": "Architect",
-      "Années d'expérience en dev": 20,
-      "Salaire brut en k€ (ou chiffre d'affaires si en indépendant)": 130,
-      "Nature du contrat (CDI, CDD, freelance…)": "CDI",
-      "Package total (k€)": 160,
-      "Détail du package total (options/RSU/BSPCE, bonus, autres avantages, etc.)": "Options + Bonus",
-      "Remarque libre": ""
-    },
-    {
-      "Entreprise": "Onfido",
-      "Titre/Poste/Role": "Software Engineer",
-      "Années d'expérience en dev": "2,5",
-      "Salaire brut en k€ (ou chiffre d'affaires si en indépendant)": 72,
-      "Nature du contrat (CDI, CDD, freelance…)": "CDI",
-      "Package total (k€)": 84,
-      "Détail du package total (options/RSU/BSPCE, bonus, autres avantages, etc.)": "10% bonus, 23k€/4ans stocks",
-      "Remarque libre": ""
-    },
-    {
-      "Entreprise": "Ankorstore",
-      "Titre/Poste/Role": "Senior Quality Engineer",
-      "Années d'expérience en dev": 15,
-      "Salaire brut en k€ (ou chiffre d'affaires si en indépendant)": 65,
-      "Nature du contrat (CDI, CDD, freelance…)": "CDI",
-      "Package total (k€)": 91,
-      "Détail du package total (options/RSU/BSPCE, bonus, autres avantages, etc.)": "26k€ euros en BSPCE",
-      "Remarque libre": "Tu parles d'exp en dev mais je ne suis plus dev depuis 6 ans, par contre je l'étais avant"
-    },
-    {
-      "Entreprise": "Maze",
-      "Titre/Poste/Role": "Eng manager",
-      "Années d'expérience en dev": 20,
-      "Salaire brut en k€ (ou chiffre d'affaires si en indépendant)": 120,
-      "Nature du contrat (CDI, CDD, freelance…)": "Portage salarial",
-      "Package total (k€)": 300,
-      "Détail du package total (options/RSU/BSPCE, bonus, autres avantages, etc.)": "Equivalent BSPCE + ben + mutuelle",
-      "Remarque libre": ""
-    },
-    {
-      "Entreprise": "Datadog",
-      "Titre/Poste/Role": "Engineering team lead",
-      "Années d'expérience en dev": 7,
-      "Salaire brut en k€ (ou chiffre d'affaires si en indépendant)": 88,
-      "Nature du contrat (CDI, CDD, freelance…)": "CDI",
-      "Package total (k€)": 200,
-      "Détail du package total (options/RSU/BSPCE, bonus, autres avantages, etc.)": "Salaire + ~150k $ / ans en RSU",
-      "Remarque libre": ""
-    },
-    {
-      "Entreprise": "PrestaShop",
-      "Titre/Poste/Role": "Développeur Core (projet open source)",
-      "Années d'expérience en dev": 12,
-      "Salaire brut en k€ (ou chiffre d'affaires si en indépendant)": 57,
-      "Nature du contrat (CDI, CDD, freelance…)": "CDI",
-      "Package total (k€)": 57,
-      "Détail du package total (options/RSU/BSPCE, bonus, autres avantages, etc.)": "",
-      "Remarque libre": ""
-    },
-    {
-      "Entreprise": "Iziwork",
-      "Titre/Poste/Role": "Lead SRE",
-      "Années d'expérience en dev": 10,
-      "Salaire brut en k€ (ou chiffre d'affaires si en indépendant)": 134,
-      "Nature du contrat (CDI, CDD, freelance…)": "CDI",
-      "Package total (k€)": 177,
-      "Détail du package total (options/RSU/BSPCE, bonus, autres avantages, etc.)": "100k€ de BSPCE sur 3 ans",
-      "Remarque libre": "Les infos sont confidentiels"
-    },
-    {
-      "Entreprise": "Grande entreprise e-commerce France",
-      "Titre/Poste/Role": "Développeur",
-      "Années d'expérience en dev": 8,
-      "Salaire brut en k€ (ou chiffre d'affaires si en indépendant)": 55,
-      "Nature du contrat (CDI, CDD, freelance…)": "CDI",
-      "Package total (k€)": 61,
-      "Détail du package total (options/RSU/BSPCE, bonus, autres avantages, etc.)": "10% de variable atteint chaque année car équipe de qualité et les objectifs sont en grande majorité des OKR d'équipe",
-      "Remarque libre": ""
-    },
-    {
-      "Entreprise": "Doctolib",
-      "Titre/Poste/Role": "Staff Engineer",
-      "Années d'expérience en dev": 4,
-      "Salaire brut en k€ (ou chiffre d'affaires si en indépendant)": 67,
-      "Nature du contrat (CDI, CDD, freelance…)": "CDI",
-      "Package total (k€)": 426,
-      "Détail du package total (options/RSU/BSPCE, bonus, autres avantages, etc.)": "67k€ + 4k€ variable + 355k€ BSPCE",
-      "Remarque libre": ""
-    },
-    {
-      "Entreprise": "Neo4j",
-      "Titre/Poste/Role": "Developer",
-      "Années d'expérience en dev": 13,
-      "Salaire brut en k€ (ou chiffre d'affaires si en indépendant)": 125,
-      "Nature du contrat (CDI, CDD, freelance…)": "CDI",
-      "Package total (k€)": "",
-      "Détail du package total (options/RSU/BSPCE, bonus, autres avantages, etc.)": "",
-      "Remarque libre": ""
-    }
-  ];
+  {
+    "Entreprise": "Datadog",
+    "Titre": "Software engineer senior",
+    "Années XP": "",
+    "Brut/CA (k€)": 110,
+    "Contrat": "CDI",
+    "Package (k€)": 110,
+    "Détails package": "RSU 20k€/ans",
+    "Remarques libres": ""
+  },
+  {
+    "Entreprise": "Grand compte dans le domaine de la mode",
+    "Titre": "Consultant web performance",
+    "Années XP": "",
+    "Brut/CA (k€)": 160,
+    "Contrat": "Freelance",
+    "Package (k€)": 160,
+    "Détails package": "",
+    "Remarques libres": ""
+  },
+  {
+    "Entreprise": "Stuart",
+    "Titre": "Senior Scala engineer",
+    "Années XP": "",
+    "Brut/CA (k€)": 76,
+    "Contrat": "CDI",
+    "Package (k€)": 76,
+    "Détails package": "",
+    "Remarques libres": ""
+  },
+  {
+    "Entreprise": "IDAaaS",
+    "Titre": "Dev",
+    "Années XP": 10,
+    "Brut/CA (k€)": 80,
+    "Contrat": "CDI",
+    "Package (k€)": 80,
+    "Détails package": "BSPCE (pour 25k€ + 6k€ / an), mais je ne les compte pas dedans, on verra bien",
+    "Remarques libres": ""
+  },
+  {
+    "Entreprise": "Phenix Digital",
+    "Titre": "VP Engineering",
+    "Années XP": 18,
+    "Brut/CA (k€)": 120,
+    "Contrat": "CDI",
+    "Package (k€)": 120,
+    "Détails package": "300k€ d'actions en BSA",
+    "Remarques libres": "En remote depuis Nantes. Freelance pour la meme boîte pendant 10 ans avant de passer en CDI."
+  },
+  {
+    "Entreprise": "Filiale du groupe Accor à Londres",
+    "Titre": "Senior Data Engineer",
+    "Années XP": 4,
+    "Brut/CA (k€)": 170,
+    "Contrat": "Freelance",
+    "Package (k€)": 170,
+    "Détails package": "",
+    "Remarques libres": ""
+  },
+  {
+    "Entreprise": "Datadog",
+    "Titre": "Senior Software Engineer",
+    "Années XP": 10,
+    "Brut/CA (k€)": "91,5",
+    "Contrat": "CDI",
+    "Package (k€)": "91,5",
+    "Détails package": "9,900 DDOG stock option sur 4 ans + 2,781 DDOG RSU sur 3 ans",
+    "Remarques libres": ""
+  },
+  {
+    "Entreprise": "Platform.sh",
+    "Titre": "Product Manager Developer Experience",
+    "Années XP": 20,
+    "Brut/CA (k€)": 72,
+    "Contrat": "CDI",
+    "Package (k€)": 92,
+    "Détails package": "BSPCE, Prime télétravail (150€ brut/mois), programme Wellness (remboursement), budget formation (remboursement)",
+    "Remarques libres": ""
+  },
+  {
+    "Entreprise": "Red Hat",
+    "Titre": "Principal Software Engineer",
+    "Années XP": 20,
+    "Brut/CA (k€)": 70,
+    "Contrat": "CDI",
+    "Package (k€)": 80,
+    "Détails package": "Primes jusqu'à 15% du brut",
+    "Remarques libres": "Les Red Hatters sont conscients d'avoir un salaire moins intéressant que ce qui se pratique dans d'autres boîtes équivalentes, mais que la qualité des conditions travail compense le côté financier"
+  },
+  {
+    "Entreprise": "Freelance",
+    "Titre": "Tech Lead Front-end",
+    "Années XP": 10,
+    "Brut/CA (k€)": 105,
+    "Contrat": "Freelance",
+    "Package (k€)": 105,
+    "Détails package": "",
+    "Remarques libres": ""
+  },
+  {
+    "Entreprise": "Doctolib",
+    "Titre": "Senior staff engineer",
+    "Années XP": 20,
+    "Brut/CA (k€)": 94,
+    "Contrat": "CDI",
+    "Package (k€)": "Confidentiel",
+    "Détails package": "Confidentiel",
+    "Remarques libres": ""
+  },
+  {
+    "Entreprise": "ZEBet",
+    "Titre": "Développeur mobile",
+    "Années XP": 6,
+    "Brut/CA (k€)": 144,
+    "Contrat": "Freelance",
+    "Package (k€)": 144,
+    "Détails package": "",
+    "Remarques libres": ""
+  },
+  {
+    "Entreprise": "Swile",
+    "Titre": "Senior Software Engineer",
+    "Années XP": 9,
+    "Brut/CA (k€)": 61,
+    "Contrat": "CDI",
+    "Package (k€)": 63,
+    "Détails package": "",
+    "Remarques libres": ""
+  },
+  {
+    "Entreprise": "Mirakl",
+    "Titre": "Senior Software Engineer",
+    "Années XP": 13,
+    "Brut/CA (k€)": 71,
+    "Contrat": "CDI",
+    "Package (k€)": 71,
+    "Détails package": "",
+    "Remarques libres": ""
+  },
+  {
+    "Entreprise": "Non renseigné",
+    "Titre": "DevOps",
+    "Années XP": 4,
+    "Brut/CA (k€)": 52,
+    "Contrat": "CDI",
+    "Package (k€)": 52,
+    "Détails package": "",
+    "Remarques libres": ""
+  },
+  {
+    "Entreprise": "Non renseigné",
+    "Titre": "Tech Lead",
+    "Années XP": 7,
+    "Brut/CA (k€)": 110,
+    "Contrat": "CDI",
+    "Package (k€)": 110,
+    "Détails package": "BSPCE",
+    "Remarques libres": ""
+  },
+  {
+    "Entreprise": "GAFAM",
+    "Titre": "Sr Dev Advocate",
+    "Années XP": 14,
+    "Brut/CA (k€)": 98,
+    "Contrat": "CDI",
+    "Package (k€)": 145,
+    "Détails package": "Annuel: 20% bonus cash, 30k$ RSU sur 4 ans. Embauche: 50k€ cash, 150k$ RSU sur 4 ans, 1.5k€ d'avantages CE, beaucoup de congés",
+    "Remarques libres": ""
+  },
+  {
+    "Entreprise": "Cardiff",
+    "Titre": "Dev backend senior",
+    "Années XP": 11,
+    "Brut/CA (k€)": 140,
+    "Contrat": "Freelance",
+    "Package (k€)": 140,
+    "Détails package": "",
+    "Remarques libres": ""
+  },
+  {
+    "Entreprise": "Datadog",
+    "Titre": "Software Engineer 2",
+    "Années XP": 7,
+    "Brut/CA (k€)": 75,
+    "Contrat": "CDI",
+    "Package (k€)": 145,
+    "Détails package": "80k$ de RSU sur 4 ans à l'embauche + 2 fois 100k$ de recharge \"au mérite\" en 2 ans = 280k$",
+    "Remarques libres": "La volatilité de l'action et l'évolution du cours $\\€ font pas mal bouger le package avec le temps, et complique bien la déclaration d'impôts lors des ventes 😁. Sans compter le programme d'ESPP pour acheter des actions à -15%."
+  },
+  {
+    "Entreprise": "Mural",
+    "Titre": "Director of Engineering",
+    "Années XP": 15,
+    "Brut/CA (k€)": 150,
+    "Contrat": "CDI",
+    "Package (k€)": 150,
+    "Détails package": "Stock options en plus mais confidentiel",
+    "Remarques libres": ""
+  },
+  {
+    "Entreprise": "Shopify",
+    "Titre": "Staff Developer",
+    "Années XP": 25,
+    "Brut/CA (k€)": 140,
+    "Contrat": "CDI",
+    "Package (k€)": 215,
+    "Détails package": "RSU",
+    "Remarques libres": ""
+  },
+  {
+    "Entreprise": "Non renseigné",
+    "Titre": "Senior Software Engineer",
+    "Années XP": 10,
+    "Brut/CA (k€)": 78,
+    "Contrat": "CDI",
+    "Package (k€)": 118,
+    "Détails package": "",
+    "Remarques libres": ""
+  },
+  {
+    "Entreprise": "Refer",
+    "Titre": "Lead Frontend",
+    "Années XP": 13,
+    "Brut/CA (k€)": 63,
+    "Contrat": "CDI",
+    "Package (k€)": 63,
+    "Détails package": "",
+    "Remarques libres": "Je suis à mi-temps (24h/semaine) mais j'ai indiqué l'équivalent si plein temps."
+  },
+  {
+    "Entreprise": "Obat",
+    "Titre": "Lead Frontend Developer",
+    "Années XP": 12,
+    "Brut/CA (k€)": 60,
+    "Contrat": "CDI",
+    "Package (k€)": 60,
+    "Détails package": "",
+    "Remarques libres": ""
+  },
+  {
+    "Entreprise": "Dans la foodtech",
+    "Titre": "Lead tech",
+    "Années XP": 12,
+    "Brut/CA (k€)": 150,
+    "Contrat": "Freelance",
+    "Package (k€)": 150,
+    "Détails package": "",
+    "Remarques libres": ""
+  },
+  {
+    "Entreprise": "Efficity",
+    "Titre": "Architecte Logiciel",
+    "Années XP": 11,
+    "Brut/CA (k€)": 72,
+    "Contrat": "CDI",
+    "Package (k€)": 72,
+    "Détails package": "",
+    "Remarques libres": ""
+  },
+  {
+    "Entreprise": "GitGuardian",
+    "Titre": "Engineering Lead",
+    "Années XP": 12,
+    "Brut/CA (k€)": 85,
+    "Contrat": "CDI",
+    "Package (k€)": 115,
+    "Détails package": "76,5k fixe + 8.5k de variable (85k) + 30k de BSPCE",
+    "Remarques libres": ""
+  },
+  {
+    "Entreprise": "Datadog",
+    "Titre": "Senior iOS Engineer",
+    "Années XP": 12,
+    "Brut/CA (k€)": 95,
+    "Contrat": "CDI",
+    "Package (k€)": 250,
+    "Détails package": "RSU, ESPP, Participation",
+    "Remarques libres": "Pour calculer le package total j'ai multiplié le nombre de RSU que j'ai par la valeur *à ce jour*  du \"200-Day Moving Average\" de DDOG (soit 148$), et j'ai divisé le tout par 5 ans (il faut que je reste en tout 5 ans à Datadog pour pouvoir vester toutes ces RSU). Néanmoins, l'action est très variable. Depuis que je suis à Datadog, le min est à 37$ et le max à 198$. C'est donc très dûr de faire une moyenne tant que c'est pas vendu."
+  },
+  {
+    "Entreprise": "Non renseigné",
+    "Titre": "Developer Relations Engineer",
+    "Années XP": 1,
+    "Brut/CA (k€)": 100,
+    "Contrat": "CDI",
+    "Package (k€)": 105,
+    "Détails package": "10k$ options",
+    "Remarques libres": ""
+  },
+  {
+    "Entreprise": "Ornikar",
+    "Titre": "Senior backend developer",
+    "Années XP": 13,
+    "Brut/CA (k€)": 64,
+    "Contrat": "CDI",
+    "Package (k€)": 64,
+    "Détails package": "Tickets resto",
+    "Remarques libres": ""
+  },
+  {
+    "Entreprise": "Inqom",
+    "Titre": "Engineering lead",
+    "Années XP": 12,
+    "Brut/CA (k€)": 68,
+    "Contrat": "CDI",
+    "Package (k€)": 68,
+    "Détails package": "BSPCE",
+    "Remarques libres": "BSPCE difficile à chiffrer (>30K)"
+  },
+  {
+    "Entreprise": "Lucca",
+    "Titre": "Engineering Manager",
+    "Années XP": 20,
+    "Brut/CA (k€)": 71,
+    "Contrat": "CDI",
+    "Package (k€)": 71,
+    "Détails package": "Associé",
+    "Remarques libres": "Chez Lucca, salaire libre pour les + de 3 ans. Mais il faut savoir le justifier."
+  },
+  {
+    "Entreprise": "Sunday",
+    "Titre": "Software engineer",
+    "Années XP": 10,
+    "Brut/CA (k€)": 60,
+    "Contrat": "CDI",
+    "Package (k€)": 80,
+    "Détails package": "Aussi vacances illimitées, congés paternité de 16 semaines, et d'autres choses",
+    "Remarques libres": "Je ne suis \"que\" software engineer, en passant senior j'espère bientôt le package va évoluer."
+  },
+  {
+    "Entreprise": "Non renseigné",
+    "Titre": "Directeur technique",
+    "Années XP": 20,
+    "Brut/CA (k€)": 95,
+    "Contrat": "CDI",
+    "Package (k€)": 105,
+    "Détails package": "Bonus",
+    "Remarques libres": ""
+  },
+  {
+    "Entreprise": "Predictice",
+    "Titre": "Head of Data",
+    "Années XP": 17,
+    "Brut/CA (k€)": "77,5",
+    "Contrat": "CDI",
+    "Package (k€)": "77,5",
+    "Détails package": "J’attends encore les BSPCE",
+    "Remarques libres": ""
+  },
+  {
+    "Entreprise": "Singulart",
+    "Titre": "Lead Front End Developer",
+    "Années XP": 7,
+    "Brut/CA (k€)": 61,
+    "Contrat": "CDI",
+    "Package (k€)": 64,
+    "Détails package": "3k€ bonus",
+    "Remarques libres": "- J'ai mis ma rémunération si je ne travaillais pas au 4/5ème. -20% vu que 4/5ème. - Full remote, mais venue régulière sur Paris"
+  },
+  {
+    "Entreprise": "Salsify",
+    "Titre": "Senior SRE",
+    "Années XP": 15,
+    "Brut/CA (k€)": 80,
+    "Contrat": "CDI",
+    "Package (k€)": 80,
+    "Détails package": "",
+    "Remarques libres": ""
+  },
+  {
+    "Entreprise": "Deezer",
+    "Titre": "Lead SRE",
+    "Années XP": 12,
+    "Brut/CA (k€)": 70,
+    "Contrat": "CDI",
+    "Package (k€)": 76,
+    "Détails package": "Astreinte",
+    "Remarques libres": ""
+  },
+  {
+    "Entreprise": "Yousign",
+    "Titre": "Dev back ou front senior 3.3",
+    "Années XP": 10,
+    "Brut/CA (k€)": 66,
+    "Contrat": "CDI",
+    "Package (k€)": "66,15",
+    "Détails package": "Frais remote mobilier et matériel, 30€ d'internet chaque mois, ticket resto Swile, BSPCE, 10 RTT, 1 congé d'ancienneté tous les 2 ans...",
+    "Remarques libres": "https://blog.yousign.io/posts/parcours-carriere-engineering-chez-yousign"
+  },
+  {
+    "Entreprise": "Alan",
+    "Titre": "Senior Software Engineer",
+    "Années XP": 16,
+    "Brut/CA (k€)": 96,
+    "Contrat": "CDI",
+    "Package (k€)": 141,
+    "Détails package": "BSPCE",
+    "Remarques libres": ""
+  },
+  {
+    "Entreprise": "Sunday",
+    "Titre": "Senior Software Engineer",
+    "Années XP": 13,
+    "Brut/CA (k€)": 75,
+    "Contrat": "CDI",
+    "Package (k€)": 80,
+    "Détails package": "5k€ de variable + 15k€ de BSPCE",
+    "Remarques libres": ""
+  },
+  {
+    "Entreprise": "Sunday",
+    "Titre": "Staff Engineer",
+    "Années XP": 16,
+    "Brut/CA (k€)": 95,
+    "Contrat": "CDI",
+    "Package (k€)": 115,
+    "Détails package": "20k€ BSPCE",
+    "Remarques libres": ""
+  },
+  {
+    "Entreprise": "Ingenico",
+    "Titre": "Software developer",
+    "Années XP": 4,
+    "Brut/CA (k€)": 50,
+    "Contrat": "CDI",
+    "Package (k€)": 55,
+    "Détails package": "",
+    "Remarques libres": ""
+  },
+  {
+    "Entreprise": "Elastic",
+    "Titre": "Software engineer II",
+    "Années XP": 4,
+    "Brut/CA (k€)": 75,
+    "Contrat": "CDI",
+    "Package (k€)": "Difficile à calculer",
+    "Détails package": "RSU (vesting sur 4 ans / 2 ans) + nouvelles acquisitions de RSUs chaque année",
+    "Remarques libres": ""
+  },
+  {
+    "Entreprise": "Comet",
+    "Titre": "CTO",
+    "Années XP": 20,
+    "Brut/CA (k€)": 115,
+    "Contrat": "CDI",
+    "Package (k€)": 115,
+    "Détails package": "BSPCE",
+    "Remarques libres": ""
+  },
+  {
+    "Entreprise": "DALKIA",
+    "Titre": "Lead développeur Ionic",
+    "Années XP": 15,
+    "Brut/CA (k€)": 116,
+    "Contrat": "Freelance",
+    "Package (k€)": 116,
+    "Détails package": "TJM DE 550€/jour sur 221 jour annuel, full télétravail et l’un des seuls de DALKIA",
+    "Remarques libres": "En free-lance full télétravail depuis 2017. Je cumule avec un poste en Irlande 2j semaine en remote aussi."
+  },
+  {
+    "Entreprise": "Datadog",
+    "Titre": "Staff Software Engineer",
+    "Années XP": 20,
+    "Brut/CA (k€)": 140,
+    "Contrat": "CDI",
+    "Package (k€)": 265,
+    "Détails package": "RSU",
+    "Remarques libres": "Le package avec les RSU est assez volatile à Datadog. Pour être plus précis ça correspond à un batch initial de 300,000$ (sur 4 ans) à l'embauche puis un refresh de 300,000$ (toujours sur 4 ans) 2 ans plus tard."
+  },
+  {
+    "Entreprise": "Non renseigné",
+    "Titre": "Devops",
+    "Années XP": 10,
+    "Brut/CA (k€)": 75,
+    "Contrat": "CDI",
+    "Package (k€)": 110,
+    "Détails package": "35k€ BCPE",
+    "Remarques libres": ""
+  },
+  {
+    "Entreprise": "Daevel",
+    "Titre": "SRE",
+    "Années XP": 10,
+    "Brut/CA (k€)": 75,
+    "Contrat": "CDI",
+    "Package (k€)": 75,
+    "Détails package": "",
+    "Remarques libres": ""
+  },
+  {
+    "Entreprise": "Alma",
+    "Titre": "Staff Engineer",
+    "Années XP": 22,
+    "Brut/CA (k€)": 75,
+    "Contrat": "CDI",
+    "Package (k€)": 75,
+    "Détails package": "+ BSPCE",
+    "Remarques libres": "Difficile d'évaluer les BSPCE..."
+  },
+  {
+    "Entreprise": "Renault digital",
+    "Titre": "Data engineer",
+    "Années XP": 11,
+    "Brut/CA (k€)": 62,
+    "Contrat": "CDI",
+    "Package (k€)": 62,
+    "Détails package": "",
+    "Remarques libres": ""
+  },
+  {
+    "Entreprise": "Sonar",
+    "Titre": "Développeur",
+    "Années XP": 12,
+    "Brut/CA (k€)": 71,
+    "Contrat": "CDI",
+    "Package (k€)": 71,
+    "Détails package": "",
+    "Remarques libres": ""
+  },
+  {
+    "Entreprise": "Qwant",
+    "Titre": "Research Engineer",
+    "Années XP": 9,
+    "Brut/CA (k€)": 68,
+    "Contrat": "CDI",
+    "Package (k€)": 68,
+    "Détails package": "",
+    "Remarques libres": "J'ai un profil bâtard, je suis pas vraiment dev je fais plutôt de la recherche appliquée"
+  },
+  {
+    "Entreprise": "Université Paris 8",
+    "Titre": "Responsable d'équipe / CP technique",
+    "Années XP": 27,
+    "Brut/CA (k€)": 60,
+    "Contrat": "CDI",
+    "Package (k€)": 60,
+    "Détails package": "",
+    "Remarques libres": ""
+  },
+  {
+    "Entreprise": "Getaround",
+    "Titre": "Senior Backend Engineer",
+    "Années XP": 7,
+    "Brut/CA (k€)": 75,
+    "Contrat": "CDI",
+    "Package (k€)": 75,
+    "Détails package": "",
+    "Remarques libres": ""
+  },
+  {
+    "Entreprise": "Sunday",
+    "Titre": "Software engineer",
+    "Années XP": 12,
+    "Brut/CA (k€)": 65,
+    "Contrat": "CDI",
+    "Package (k€)": 83,
+    "Détails package": "15k€ BSPCE",
+    "Remarques libres": ""
+  },
+  {
+    "Entreprise": "Smile",
+    "Titre": "Ingénieur R&D DevOps/Dev",
+    "Années XP": 21,
+    "Brut/CA (k€)": 62,
+    "Contrat": "CDI",
+    "Package (k€)": 62,
+    "Détails package": "",
+    "Remarques libres": ""
+  },
+  {
+    "Entreprise": "Shopify",
+    "Titre": "Senior Developer",
+    "Années XP": 12,
+    "Brut/CA (k€)": 99,
+    "Contrat": "CDI",
+    "Package (k€)": 140,
+    "Détails package": "Lifestyle grant 3700€, RSU USD 112K",
+    "Remarques libres": "Pas sûr que les RSU seront renouvelés tous les ans sous forme de refresher."
+  },
+  {
+    "Entreprise": "Dataiku",
+    "Titre": "Senior dev fullstack",
+    "Années XP": 12,
+    "Brut/CA (k€)": 75,
+    "Contrat": "CDI",
+    "Package (k€)": 75,
+    "Détails package": "80k€ de BSPCE",
+    "Remarques libres": ""
+  },
+  {
+    "Entreprise": "TechProductInsight",
+    "Titre": "Dirigeant dev fullstack",
+    "Années XP": 7,
+    "Brut/CA (k€)": 141,
+    "Contrat": "Freelance",
+    "Package (k€)": 141,
+    "Détails package": "",
+    "Remarques libres": "En freelance je peux déduire des charges et travailler avec le matos et équipement que je veux"
+  },
+  {
+    "Entreprise": "Non renseigné",
+    "Titre": "Senior developer",
+    "Années XP": "",
+    "Brut/CA (k€)": 200,
+    "Contrat": "Freelance",
+    "Package (k€)": 200,
+    "Détails package": "",
+    "Remarques libres": ""
+  },
+  {
+    "Entreprise": "IBM",
+    "Titre": "Senior Software Engineer",
+    "Années XP": 16,
+    "Brut/CA (k€)": 80,
+    "Contrat": "CDI",
+    "Package (k€)": 80,
+    "Détails package": "Actions à 85% du prix public avec 10% du salaire mensuel, au 4/5ème",
+    "Remarques libres": ""
+  },
+  {
+    "Entreprise": "Ornikar",
+    "Titre": "Senior backend developer",
+    "Années XP": 10,
+    "Brut/CA (k€)": 62,
+    "Contrat": "CDI",
+    "Package (k€)": 62,
+    "Détails package": "",
+    "Remarques libres": ""
+  },
+  {
+    "Entreprise": "Prisma Media",
+    "Titre": "Lead Developer",
+    "Années XP": 12,
+    "Brut/CA (k€)": 68,
+    "Contrat": "CDI",
+    "Package (k€)": 68,
+    "Détails package": "Convention cadre de la presse magazine. 9 semaines de congés. CE. Mutuelle. Tickets resto. Cantine. Télétravail.",
+    "Remarques libres": ""
+  },
+  {
+    "Entreprise": "Beta Gouv",
+    "Titre": "Développeur Backend Python",
+    "Années XP": 20,
+    "Brut/CA (k€)": 130,
+    "Contrat": "Freelance",
+    "Package (k€)": 130,
+    "Détails package": "",
+    "Remarques libres": "Au 4/5ème"
+  },
+  {
+    "Entreprise": "Lunex",
+    "Titre": "Full stack dev",
+    "Années XP": 7,
+    "Brut/CA (k€)": 94,
+    "Contrat": "CDI",
+    "Package (k€)": 120,
+    "Détails package": "Bonus, stocks",
+    "Remarques libres": ""
+  },
+  {
+    "Entreprise": "Treezor",
+    "Titre": "Lead Dev Go",
+    "Années XP": 15,
+    "Brut/CA (k€)": 73,
+    "Contrat": "CDI",
+    "Package (k€)": 75,
+    "Détails package": "Prime de resultat de 3k€",
+    "Remarques libres": ""
+  },
+  {
+    "Entreprise": "Non renseigné",
+    "Titre": "Senior Dev Go",
+    "Années XP": 17,
+    "Brut/CA (k€)": 100,
+    "Contrat": "CDI",
+    "Package (k€)": 300,
+    "Détails package": "BSPCE, meilleur package wemind",
+    "Remarques libres": ""
+  },
+  {
+    "Entreprise": "Lifen",
+    "Titre": "Senior front-end engineer",
+    "Années XP": 12,
+    "Brut/CA (k€)": 65,
+    "Contrat": "CDI",
+    "Package (k€)": 65,
+    "Détails package": "12k BSPCE",
+    "Remarques libres": ""
+  },
+  {
+    "Entreprise": "Meritis",
+    "Titre": "Architecte logiciel",
+    "Années XP": 11,
+    "Brut/CA (k€)": 65,
+    "Contrat": "CDI",
+    "Package (k€)": 65,
+    "Détails package": "Salaire fixe uniquement",
+    "Remarques libres": ""
+  },
+  {
+    "Entreprise": "Contentsquare",
+    "Titre": "Customer Success on a Product for Dev",
+    "Années XP": 15,
+    "Brut/CA (k€)": 60,
+    "Contrat": "CDI",
+    "Package (k€)": 75,
+    "Détails package": "60k€ + bonus on objective + BSPCE à deux ans + divers indemnités et soutiens pour un montant de 3k€/an",
+    "Remarques libres": ""
+  },
+  {
+    "Entreprise": "Emplifi.io",
+    "Titre": "Team Lead - Dev",
+    "Années XP": 8,
+    "Brut/CA (k€)": 68,
+    "Contrat": "CDI",
+    "Package (k€)": 68,
+    "Détails package": "RAS mais avantages parentaux en cours de négo, vacances 5+2 RTT semaines",
+    "Remarques libres": "Poste que j'ai gardé à mon retour d'expatriation de Montréal (4 ans là bas dont 2 ans dans cette entreprise). Pas trouvé mieux en Normandie niveau salaire/conditions de travail donc j'y reste, la flemme de chercher mieux sur Paris pour l'instant"
+  },
+  {
+    "Entreprise": "DeepReach",
+    "Titre": "Senior Software Developpr",
+    "Années XP": 12,
+    "Brut/CA (k€)": 80,
+    "Contrat": "CDI",
+    "Package (k€)": 95,
+    "Détails package": "BSPCE 15k€",
+    "Remarques libres": ""
+  },
+  {
+    "Entreprise": "Microsoft",
+    "Titre": "Principal Software Engineer",
+    "Années XP": 20,
+    "Brut/CA (k€)": 120,
+    "Contrat": "CDI",
+    "Package (k€)": 200,
+    "Détails package": "40k€ Bonus Cash et 40k€ Bonus RSU",
+    "Remarques libres": ""
+  },
+  {
+    "Entreprise": "api.video",
+    "Titre": "Infra",
+    "Années XP": 9,
+    "Brut/CA (k€)": 120,
+    "Contrat": "CDI",
+    "Package (k€)": 180,
+    "Détails package": "BSCPE",
+    "Remarques libres": ""
+  },
+  {
+    "Entreprise": "KissKissBankBank",
+    "Titre": "Lead dev back (Ruby)",
+    "Années XP": 10,
+    "Brut/CA (k€)": 78,
+    "Contrat": "CDI",
+    "Package (k€)": 78,
+    "Détails package": "5k€ notes de frais, RTT, tickets resto",
+    "Remarques libres": ""
+  },
+  {
+    "Entreprise": "Ledger",
+    "Titre": "Principal Software Engineer",
+    "Années XP": 22,
+    "Brut/CA (k€)": 95,
+    "Contrat": "CDI",
+    "Package (k€)": 140,
+    "Détails package": "BSPCE 35k€, variable 10k€",
+    "Remarques libres": ""
+  },
+  {
+    "Entreprise": "Getaround",
+    "Titre": "Senior Full-Stack Engineer",
+    "Années XP": 6,
+    "Brut/CA (k€)": 65,
+    "Contrat": "CDI",
+    "Package (k€)": 65,
+    "Détails package": "5000 RSU (valeur pas claire)",
+    "Remarques libres": ""
+  },
+  {
+    "Entreprise": "Swile",
+    "Titre": "iOS senior developer",
+    "Années XP": 14,
+    "Brut/CA (k€)": 61,
+    "Contrat": "CDI",
+    "Package (k€)": 61,
+    "Détails package": "",
+    "Remarques libres": ""
+  },
+  {
+    "Entreprise": "Non renseigné",
+    "Titre": "Architect",
+    "Années XP": 20,
+    "Brut/CA (k€)": 130,
+    "Contrat": "CDI",
+    "Package (k€)": 160,
+    "Détails package": "Options + Bonus",
+    "Remarques libres": ""
+  },
+  {
+    "Entreprise": "Onfido",
+    "Titre": "Software Engineer",
+    "Années XP": "2,5",
+    "Brut/CA (k€)": 72,
+    "Contrat": "CDI",
+    "Package (k€)": 84,
+    "Détails package": "10% bonus, 23k€/4ans stocks",
+    "Remarques libres": ""
+  },
+  {
+    "Entreprise": "Ankorstore",
+    "Titre": "Senior Quality Engineer",
+    "Années XP": 15,
+    "Brut/CA (k€)": 65,
+    "Contrat": "CDI",
+    "Package (k€)": 91,
+    "Détails package": "26k€ euros en BSPCE",
+    "Remarques libres": "Tu parles d'exp en dev mais je ne suis plus dev depuis 6 ans, par contre je l'étais avant"
+  },
+  {
+    "Entreprise": "Maze",
+    "Titre": "Eng manager",
+    "Années XP": 20,
+    "Brut/CA (k€)": 120,
+    "Contrat": "Portage salarial",
+    "Package (k€)": 300,
+    "Détails package": "Equivalent BSPCE + ben + mutuelle",
+    "Remarques libres": ""
+  },
+  {
+    "Entreprise": "Datadog",
+    "Titre": "Engineering team lead",
+    "Années XP": 7,
+    "Brut/CA (k€)": 88,
+    "Contrat": "CDI",
+    "Package (k€)": 200,
+    "Détails package": "Salaire + ~150k $ / ans en RSU",
+    "Remarques libres": ""
+  },
+  {
+    "Entreprise": "PrestaShop",
+    "Titre": "Développeur Core (projet open source)",
+    "Années XP": 12,
+    "Brut/CA (k€)": 57,
+    "Contrat": "CDI",
+    "Package (k€)": 57,
+    "Détails package": "",
+    "Remarques libres": ""
+  },
+  {
+    "Entreprise": "Iziwork",
+    "Titre": "Lead SRE",
+    "Années XP": 10,
+    "Brut/CA (k€)": 134,
+    "Contrat": "CDI",
+    "Package (k€)": 177,
+    "Détails package": "100k€ de BSPCE sur 3 ans",
+    "Remarques libres": ""
+  },
+  {
+    "Entreprise": "Grande entreprise e-commerce France",
+    "Titre": "Développeur",
+    "Années XP": 8,
+    "Brut/CA (k€)": 55,
+    "Contrat": "CDI",
+    "Package (k€)": 61,
+    "Détails package": "10% de variable atteint chaque année car équipe de qualité et les objectifs sont en grande majorité des OKR d'équipe",
+    "Remarques libres": ""
+  },
+  {
+    "Entreprise": "Doctolib",
+    "Titre": "Staff Engineer",
+    "Années XP": 4,
+    "Brut/CA (k€)": 67,
+    "Contrat": "CDI",
+    "Package (k€)": 426,
+    "Détails package": "67k€ + 4k€ variable + 355k€ BSPCE",
+    "Remarques libres": ""
+  },
+  {
+    "Entreprise": "Neo4j",
+    "Titre": "Developer",
+    "Années XP": 13,
+    "Brut/CA (k€)": 125,
+    "Contrat": "CDI",
+    "Package (k€)": 125,
+    "Détails package": "",
+    "Remarques libres": ""
+  }
+];
