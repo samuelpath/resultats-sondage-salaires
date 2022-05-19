@@ -67,7 +67,7 @@ var tabledata = [
     "Contrat": "CDI",
     "Package (k€)": 120,
     "Détails package": "300k€ d'actions en BSA",
-    "Remarques libres": "En remote depuis Nantes. Freelance pour la meme boîte pendant 10 ans avant de passer en CDI."
+    "Remarques libres": "Freelance pour la même boîte pendant 10 ans avant de passer en CDI."
   },
   {
     "Entreprise": "Filiale du groupe Accor à Londres",
@@ -893,10 +893,10 @@ var tabledata = [
     "Entreprise": "Doctolib",
     "Titre": "Staff Engineer",
     "Années XP": 4,
-    "Brut/CA (k€)": 67,
+    "Brut/CA (k€)": 70,
     "Contrat": "CDI",
-    "Package (k€)": 426,
-    "Détails package": "67k€ + 4k€ variable + 355k€ BSPCE",
+    "Package (k€)": 300,
+    "Détails package": "70k€ + 230k€ BSPCE (une fois l’intégralité vesté une fois leur coût d’excercice payé)",
     "Remarques libres": ""
   },
   {
