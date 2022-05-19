@@ -550,12 +550,12 @@ var tabledata = [
     "Remarques libres": "J'ai un profil bâtard, je suis pas vraiment dev je fais plutôt de la recherche appliquée"
   },
   {
-    "Entreprise": "Université Paris 8",
+    "Entreprise": "Université en région parisienne",
     "Titre": "Responsable d'équipe / CP technique",
     "Années XP": 27,
-    "Brut/CA (k€)": 60,
+    "Brut/CA (k€)": 57,
     "Contrat": "CDI",
-    "Package (k€)": 60,
+    "Package (k€)": 57,
     "Détails package": "",
     "Remarques libres": ""
   },
