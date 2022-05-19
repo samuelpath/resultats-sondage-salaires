@@ -918,5 +918,15 @@ var tabledata = [
     "Package (k€)": 55,
     "Détails package": "",
     "Remarques libres": ""
+  },
+  {
+    "Entreprise": "Shopify",
+    "Titre": "Senior Software Developer",
+    "Années XP": 7,
+    "Brut/CA (k€)": 110,
+    "Contrat": "CDI",
+    "Package (k€)": 148,
+    "Détails package": "105k€ de RSU sur 3 ans + 3k€ budget lifestyle annuel",
+    "Remarques libres": ""
   }
 ];
