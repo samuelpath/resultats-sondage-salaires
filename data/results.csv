@@ -1,0 +1,90 @@
+"Entreprise";"Titre/Poste/Role";"Années d'expérience en dev";"Salaire brut en k€ (ou chiffre d'affaires si en indépendant)";"Nature du contrat (CDI, CDD, freelance…)";"Package total (k€)";"Détail du package total (options/RSU/BSPCE, bonus, autres avantages, etc.)";"Remarque libre"
+"Datadog";"Software engineer senior ";;"110";"CDI";"110";"RSU 20k€/ans ";
+"Grand compte dans le domaine de la mode";"Consultant web performance";;"160";"Freelance";;;
+"Stuart";"Senior Scala engineer";;"76";"CDI";;;
+"IDAaaS";"Dev";"10";"80";"CDI";"80";"BSPCE (pour 25k€ + 6k€ / an), mais je ne les compte pas dedans, on verra bien";
+"Phenix Digital";"VP Engineering";"18";"120";"CDI";;"300k€ d'actions en BSA";"En remote depuis Nantes. Freelance pour la meme boîte pendant 10 ans avant de passer en CDI."
+"Filiale du groupe Accor à Londres";"Senior Data Engineer";"4";"170";"Freelance";;;
+"Datadog";"Senior Software Engineer";"10";"91,5";"CDI";;"9,900 DDOG stock option sur 4 ans + 2,781 DDOG RSU sur 3 ans";
+"Platform.sh ";"Product Manager Developer Experience ";"20";"72";"CDI";"92";"BSPCE, Prime télétravail (150€ brut/mois), programme Wellness (remboursement), budget formation (remboursement)";
+"Red Hat";"Principal Software Engineer";"20";"70";"CDI";"80";"Primes jusqu'à 15% du brut";"Les Red Hatters sont conscients d'avoir un salaire moins intéressant que ce qui se pratique dans d'autres boîtes équivalentes, mais que la qualité des conditions travail compense le côté financier"
+"Freelance";"Tech Lead Front-end";"10";"105";"Freelance";;;
+"Doctolib";"Senior staff engineer ";"20";"94";"CDI";"Confidentiel";"Confidentiel";
+"ZEBet";"Développeur mobile";"6";"144";"Freelance";;;
+"Swile";"Senior Software Engineer";"9";"61";"CDI";"63";;
+"Mirakl";"Senior Software Engineer";"13";"71";"CDI";"71";;
+"Non renseigné";"DevOps";"4";"52";"Cdi";;;
+"Non renseigné";"Tech Lead";"7";"110";"CDI";;"BSPCE";
+"GAFAM";"Sr Dev Advocate ";"14";"98";"CDI";"145";"Annuel: 20% bonus cash, 30k$ RSU sur 4 ans. Embauche: 50k€ cash, 150k$ RSU sur 4 ans, 1.5k€ d'avantages CE, beaucoup de congés ";
+"Cardiff";"Dev backend senior";"11";"140";"Freelance ";;;
+"Datadog";"Software Engineer 2";"7";"75";"CDI";"145";"80k$ de RSU sur 4 ans à l'embauche + 2 fois 100k$ de recharge ""au mérite"" en 2 ans = 280k$";"La volatilité de l'action et l'évolution du cours $\€ font pas mal bouger le package avec le temps, et complique bien la déclaration d'impôts lors des ventes 😁. Sans compter le programme d'ESPP pour acheter des actions à -15%."
+"Mural";"Director of Engineering";"15";"150";"CDI";"150";"Stock options en plus mais confidentiel";
+"Shopify";"Staff Developer";"25";"140";"CDI";"215";"RSU";
+"Non renseigné";"Senior Software Engineer";"10";"78";"CDI";"118";;
+"Refer";"Lead Frontend";"13";"63";"CDI";"63";;"Je suis à mi-temps (24h/semaine) mais j'ai indiqué l'équivalent si plein temps. "
+"Obat";"Lead Frontend Developer";"12";"60";"CDI";;;
+"Dans la foodtech";"Lead tech";"12";"150";"Freelance";;;
+"Efficity";"Architecte Logiciel";"11";"72";"CDI";"72";;
+"GitGuardian";"Engineering Lead";"12";"85";"CDI";"115";"76,5k fixe + 8.5k de variable (85k) + 30k de BSPCE";
+"Datadog";"Senior iOS Engineer";"12";"95";"CDI";"250";"RSU, ESPP, Participation";"Pour calculer le package total j'ai multiplié le nombre de RSU que j'ai par la valeur *à ce jour*  du ""200-Day Moving Average"" de DDOG (soit 148$), et j'ai divisé le tout par 5 ans (il faut que je reste en tout 5 ans à Datadog pour pouvoir vester toutes ces RSU). Néanmoins, l'action est très variable. Depuis que je suis à Datadog, le min est à 37$ et le max à 198$. C'est donc très dûr de faire une moyenne tant que c'est pas vendu."
+"Non renseigné";"Developer Relations Engineer";"1";"100";"CDI";"105";"10k$ options";
+"Ornikar";"Senior backend developer";"13";"64";"CDI";"64";"Tickets resto";
+"Inqom";"Engineering lead";"12";"68";"CDI";"68";"BSPCE";"BSPCE difficile à chiffrer (>30K)"
+"Lucca";"Engineering Manager";"20";"71";"CDI";;"Associé";"Chez Lucca, salaire libre pour les + de 3 ans. Mais il faut savoir le justifier."
+"Sunday";"Software engineer";"10";"60";"CDI";"80";"Aussi vacances illimitées, congés paternité de 16 semaines, et d'autres choses";"Je ne suis ""que"" software engineer, en passant senior j'espère bientôt le package va évoluer."
+"Non renseigné";"Directeur technique ";"20";"95";"CDI";"105";"Bonus ";
+"Predictice ";"Head of Data";"17";"77,5";"CDI";"77,5";"J’attends encore les BSPCE";
+"Singulart";"Lead Front End Developer";"7";"61";"CDI";"64";"3k€ bonus";"- J'ai mis ma rémunération si je ne travaillais pas au 4/5ème. -20% vu que 4/5ème. - Full remote, mais venue régulière sur Paris"
+"Salsify";"Senior SRE ";"15";"80";"CDI ";"80";;
+"Deezer";"Lead SRE";"12";"70";"CDI";"76";"Astreinte";
+"Yousign";"Dev back ou front senior 3.3";"10";"66";"CDI";"66,15";"Frais remote mobilier et matériel, 30€ d'internet chaque mois, ticket resto Swile, BSPCE, 10 RTT, 1 congé d'ancienneté tous les 2 ans...";"https://blog.yousign.io/posts/parcours-carriere-engineering-chez-yousign"
+"Alan";"Senior Software Engineer ";"16";"96";"CDI";"141";"BSPCE";
+"Sunday";"Senior Software Engineer";"13";"75";"CDI";"80";"5k€ de variable + 15k€ de BSPCE";
+"Sunday";"Staff Engineer";"16";"95";"CDI";"115";"20k€ BSPCE";
+"Ingenico";"Software developer";"4";"50";"CDI";"55";;
+"Elastic";"Software engineer II";"4";"75";"CDI";"Difficile à calculer";"RSU (vesting sur 4 ans / 2 ans) + nouvelles acquisitions de RSUs chaque année ";
+"Comet";"CTO";"20";"115";"CDI";"115";"BSPCE";
+"DALKIA";"Lead développeur Ionic ";"15";"116";"Freelance";;"TJM DE 550€/jour sur 221 jour annuel, full télétravail et l’un des seuls de DALKIA";"En free-lance full télétravail depuis 2017. Je cumule avec un poste en Irlande 2j semaine en remote aussi."
+"Datadog";"Staff Software Engineer ";"20";"140";"CDI";"265";"RSU";"Le package avec les RSU est assez volatile à Datadog. Pour être plus précis ça correspond à un batch initial de 300,000$ (sur 4 ans) à l'embauche puis un refresh de 300,000$ (toujours sur 4 ans) 2 ans plus tard."
+"Non renseigné";"Devops";"10";"75";"CDI ";"110";"35k€ BCPE";
+"Daevel";"SRE";"10";"75";"CDI";;;
+"Alma";"Staff Engineer ";"22";"75";"CDI";"75";"+ BSPCE";"Difficile d'évaluer les BSPCE..."
+"Renault digital";"Data engineer";"11";"62";"CDI";;;
+"Sonar";"Développeur";"12";"71";"CDI";;;
+"Qwant";"Research Engineer ";"9";"68";"CDI";"68";;"J'ai un profil bâtard, je suis pas vraiment dev je fais plutôt de la recherche appliquée "
+"Université Paris 8";"Responsable d'équipe / CP technique";"27";"60";"CDI";;;
+"Getaround ";"Senior Backend Engineer";"7";"75";"CDI";"75";;
+"Sunday";"Software engineer";"12";"65";"CDI";"83";"15k€ BSPCE";
+"Smile";"Ingénieur R&D DevOps/Dev";"21";"62";"CDI";;;
+"Shopify";"Senior Developer";"12";"99";"CDI";"140";"Lifestyle grant 3700€, RSU USD 112K";"Pas sûr que les RSU seront renouvelés tous les ans sous forme de refresher."
+"Dataiku";"Senior dev fullstack";"12";"75";"CDI";;"80k€ de BSPCE";
+"TechProductInsight";"Dirigeant dev fullstack";"7";"141";"Freelance";;;"En freelance je peux déduire des charges et travailler avec le matos et équipement que je veux "
+"Non renseigné";"Senior developer";;"200";"Freelance";"200";;
+"IBM";"Senior Software Engineer";"16";"80";"CDI";;"Actions à 85% du prix public avec 10% du salaire mensuel, au 4/5ème";
+"Ornikar";"Senior backend developer ";"10";"62";"CDI";"62";;
+"Prisma Media ";"Lead Developer ";"12";"68";"CDI";;"Convention cadre de la presse magazine. 9 semaines de congés. CE. Mutuelle. Tickets resto. Cantine. Télétravail.";
+"Beta Gouv";"Développeur Backend Python";"20";"130";"Freelance";;;"Au 4/5ème"
+"Lunex ";"Full stack dev ";"7";"94";"CDI";"120";"Bonus, stocks";
+"Treezor";"Lead Dev Go";"15";"73";"CDI";"75";"Prime de resultat de 3k€";
+"Non renseigné";"Senior Dev Go";"17";"100";"CDI";"300";"BSPCE, meilleur package wemind ";
+"Lifen";"Senior front-end engineer";"12";"65";"CDI";;"12k BSPCE";
+"Meritis";"Architecte logiciel";"11";"65";"CDI";"65";"Salaire fixe uniquement";
+"Contentsquare ";"Customer Success on a Product for Dev (so a dev is needed)";"15";"60";"CDI";"75";"60k€ + bonus on objective + BSPCE à deux ans + divers indemnités et soutiens pour un montant de 3k€/an (soutiens aux dons caritatifs, welfare sport alloyancd, prise en charge psy, des trucs pour les enfants…)";
+"Emplifi.io";"Team Lead - Dev";"8";"68";"CDI";"68";"RAS mais avantages parentaux en cours de négo, vacances 5+2 RTT semaines";"Poste que j'ai gardé à mon retour d'expatriation de Montréal (4 ans là bas dont 2 ans dans cette entreprise). Pas trouvé mieux en Normandie niveau salaire/conditions de travail donc j'y reste, la flemme de chercher mieux sur Paris pour l'instant"
+"DeepReach";"Senior Software Developpr";"12";"80";"CDI";"95";"BSPCE 15k€";
+"Microsoft";"Principal Software Engineer";"20";"120";"CDI";"200";"40k€ Bonus Cash et 40k€ Bonus RSU";
+"api.video ";"Infra";"9";"120";"CDI";"180";"BSCPE";
+"KissKissBankBank ";"Lead dev back (Ruby)";"10";"78";"CDI";;"5k€ notes de frais, RTT, tickets resto";
+"Ledger";"Principal Software Engineer";"22";"95";"CDI";"140";"BSPCE 35k€, variable 10k€";
+"Getaround ";"Senior Full-Stack Engineer ";"6";"65";"CDI";"65";"5000 RSU (valeur pas claire)";
+"Swile";"iOS senior developer";"14";"61";"CDI";"61";;
+"Non renseigné";"Architect";"20";"130";"CDI";"160";"Options + Bonus";
+"Onfido";"Software Engineer";"2,5";"72";"CDI";"84";"10% bonus, 23k€/4ans stocks";
+"Ankorstore ";"Senior Quality Engineer ";"15";"65";"CDI";"91";"26k€ euros en BSPCE ";"Tu parles d'exp en dev mais je ne suis plus dev depuis 6 ans, par contre je l'étais avant "
+"Maze";"Eng manager";"20";"120";"Portage salarial";"300";"Equivalent BSPCE + ben + mutuelle";
+"Datadog";"Engineering team lead";"7";"88";"CDI";"200";"Salaire + ~150k $ / ans en RSU ";
+"PrestaShop";"Développeur Core (projet open source)";"12";"57";"CDI";"57";;
+"Iziwork";"Lead SRE";"10";"134";"CDI";"177";"100k€ de BSPCE sur 3 ans";"Les infos sont confidentiels "
+"Grande entreprise e-commerce France";"Développeur";"8";"55";"CDI";"61";"10% de variable atteint chaque année car équipe de qualité et les objectifs sont en grande majorité des OKR d'équipe ";
+"Doctolib";"Staff Engineer";"4";"67";"CDI";"426";"67k€ + 4k€ variable + 355k€ BSPCE";
+"Neo4j";"Developer";"13";"125";"CDI";;;
