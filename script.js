@@ -2,12 +2,13 @@ function loadTable() {
     var table = new Tabulator("#example-table", {
         data: tabledata, //assign data to table
         autoColumns: true, //create columns from data field names
-        initialSort:[             //set the initial sort order of the data
+        initialSort:[ //set the initial sort order of the data
           {column: "Package (k€)", dir:"desc"},
         ],
     });
 }
 
+// I convert the raw CSV in JSON using a quick copy/paste on https://csvjson.com/csv2json
 var tabledata = [
   {
     "Entreprise": "Datadog",
