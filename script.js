@@ -210,7 +210,7 @@ var tabledata = [
     "Remarques libres": "La volatilité de l'action et l'évolution du cours $\\€ font pas mal bouger le package avec le temps, et complique bien la déclaration d'impôts lors des ventes 😁. Sans compter le programme d'ESPP pour acheter des actions à -15%."
   },
   {
-    "Entreprise": "Mural",
+    "Entreprise": "Licorne Tech US",
     "Titre": "Director of Engineering",
     "Années XP": 15,
     "Brut/CA (k€)": 150,
