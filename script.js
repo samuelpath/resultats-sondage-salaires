@@ -60,16 +60,6 @@ var tabledata = [
     "Remarques libres": ""
   },
   {
-    "Entreprise": "Phenix Digital",
-    "Titre": "VP Engineering",
-    "Années XP": 18,
-    "Brut/CA (k€)": 120,
-    "Contrat": "CDI",
-    "Package (k€)": 120,
-    "Détails package": "300k€ d'actions en BSA",
-    "Remarques libres": "En remote depuis Nantes. Freelance pour la meme boîte pendant 10 ans avant de passer en CDI."
-  },
-  {
     "Entreprise": "Filiale du groupe Accor à Londres",
     "Titre": "Senior Data Engineer",
     "Années XP": 4,
