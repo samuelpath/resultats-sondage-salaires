@@ -870,7 +870,7 @@ var tabledata = [
     "Remarques libres": ""
   },
   {
-    "Entreprise": "Iziwork",
+    "Entreprise": "Intérim digital",
     "Titre": "Lead SRE",
     "Années XP": 10,
     "Brut/CA (k€)": 134,
