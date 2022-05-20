@@ -928,5 +928,15 @@ var tabledata = [
     "Package (k€)": 148,
     "Détails package": "105k€ de RSU sur 3 ans + 3k€ budget lifestyle annuel",
     "Remarques libres": ""
+  },
+  {
+    "Entreprise": "Veepee",
+    "Titre": "Lead Developer",
+    "Années XP": 9,
+    "Brut/CA (k€)": "71,5",
+    "Contrat": "CDI",
+    "Package (k€)": "71,5",
+    "Détails package": "71,5k€ de fixe brut + 10% bonus de ce brut par an sur objectifs",
+    "Remarques libres": "Selon la team, l'équilibre pro/perso est vraiment correct"
   }
 ];
