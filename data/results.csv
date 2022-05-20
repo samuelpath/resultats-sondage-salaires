@@ -5,7 +5,7 @@
 "IDAaaS";"Dev";"10";"80";"CDI";"80";"BSPCE (pour 25k€ + 6k€ / an), mais je ne les compte pas dedans, on verra bien";
 "Scale-up dans les médias";"VP Engineering";"18";"120";"CDI";"120";"300k€ d'actions en BSA";"Freelance pour la même boîte pendant 10 ans avant de passer en CDI."
 "Filiale du groupe Accor à Londres";"Senior Data Engineer";"4";"170";"Freelance";"170";;
-"Datadog";"Senior Software Engineer";"10";"91,5";"CDI";"91,5";"9,900 DDOG stock option sur 4 ans + 2,781 DDOG RSU sur 3 ans";
+"Datadog";"Senior Software Engineer";"10";"91.5";"CDI";"91.5";"9,900 DDOG stock option sur 4 ans + 2,781 DDOG RSU sur 3 ans";
 "Platform.sh ";"Product Manager Developer Experience ";"20";"72";"CDI";"92";"BSPCE, Prime télétravail (150€ brut/mois), programme Wellness (remboursement), budget formation (remboursement)";
 "Red Hat";"Principal Software Engineer";"20";"70";"CDI";"80";"Primes jusqu'à 15% du brut";"Les Red Hatters sont conscients d'avoir un salaire moins intéressant que ce qui se pratique dans d'autres boîtes équivalentes, mais que la qualité des conditions travail compense le côté financier"
 "Freelance";"Tech Lead Front-end";"10";"105";"Freelance";"105";;
@@ -33,11 +33,11 @@
 "Lucca";"Engineering Manager";"20";"71";"CDI";"71";"Associé";"Chez Lucca, salaire libre pour les + de 3 ans. Mais il faut savoir le justifier."
 "Sunday";"Software engineer";"10";"60";"CDI";"80";"Aussi vacances illimitées, congés paternité de 16 semaines, et d'autres choses";"Je ne suis ""que"" software engineer, en passant senior j'espère bientôt le package va évoluer."
 "Non renseigné";"Directeur technique ";"20";"95";"CDI";"105";"Bonus ";
-"Predictice ";"Head of Data";"17";"77,5";"CDI";"77,5";"J’attends encore les BSPCE";
+"Predictice ";"Head of Data";"17";"77.5";"CDI";"77.5";"J’attends encore les BSPCE";
 "Singulart";"Lead Front End Developer";"7";"61";"CDI";"64";"3k€ bonus";"- J'ai mis ma rémunération si je ne travaillais pas au 4/5ème. -20% vu que 4/5ème. - Full remote, mais venue régulière sur Paris"
 "Salsify";"Senior SRE ";"15";"80";"CDI ";"80";;
 "Deezer";"Lead SRE";"12";"70";"CDI";"76";"Astreinte";
-"Yousign";"Dev back ou front senior 3.3";"10";"66";"CDI";"66,15";"Frais remote mobilier et matériel, 30€ d'internet chaque mois, ticket resto Swile, BSPCE, 10 RTT, 1 congé d'ancienneté tous les 2 ans...";"https://blog.yousign.io/posts/parcours-carriere-engineering-chez-yousign"
+"Yousign";"Dev back ou front senior 3.3";"10";"66";"CDI";"66.15";"Frais remote mobilier et matériel, 30€ d'internet chaque mois, ticket resto Swile, BSPCE, 10 RTT, 1 congé d'ancienneté tous les 2 ans...";"https://blog.yousign.io/posts/parcours-carriere-engineering-chez-yousign"
 "Alan";"Senior Software Engineer ";"16";"96";"CDI";"141";"BSPCE";
 "Sunday";"Senior Software Engineer";"13";"75";"CDI";"80";"5k€ de variable + 15k€ de BSPCE";
 "Sunday";"Staff Engineer";"16";"95";"CDI";"115";"20k€ BSPCE";
@@ -79,15 +79,15 @@
 "Getaround ";"Senior Full-Stack Engineer ";"6";"65";"CDI";"65";"5000 RSU (valeur pas claire)";
 "Swile";"iOS senior developer";"14";"61";"CDI";"61";;
 "Non renseigné";"Architect";"20";"130";"CDI";"160";"Options + Bonus";
-"Scale-up UK";"Software Engineer";"2,5";"72";"CDI";"84";"10% bonus, 23k€/4ans stocks";
+"Scale-up UK";"Software Engineer";"2.5";"72";"CDI";"84";"10% bonus, 23k€/4ans stocks";
 "Ankorstore ";"Senior Quality Engineer ";"15";"65";"CDI";"91";"26k€ euros en BSPCE ";"Tu parles d'exp en dev mais je ne suis plus dev depuis 6 ans, par contre je l'étais avant "
 "Maze";"Eng manager";"20";"120";"Portage salarial";"300";"Equivalent BSPCE + ben + mutuelle";
 "Datadog";"Engineering team lead";"7";"88";"CDI";"200";"Salaire + ~150k $ / ans en RSU ";
 "PrestaShop";"Développeur Core (projet open source)";"12";"57";"CDI";"57";;
 "Intérim digital";"Lead SRE";"10";"134";"CDI";"177";"100k€ de BSPCE sur 3 ans";" "
 "Grande entreprise e-commerce France";"Développeur";"8";"55";"CDI";"61";"10% de variable atteint chaque année car équipe de qualité et les objectifs sont en grande majorité des OKR d'équipe ";
-"Doctolib";"Staff Engineer";"4";"70";"CDI";"127,5";"70k€ + 230k€ BSPCE sur 4 ans (une fois l’intégralité vestée une fois leur coût d’excercice payé)";
+"Doctolib";"Staff Engineer";"4";"70";"CDI";"127.5";"70k€ + 230k€ BSPCE sur 4 ans (une fois l’intégralité vestée une fois leur coût d’excercice payé)";
 "Neo4j";"Developer";"13";"125";"CDI";"125";;
 "Squadracer";"Ingénieur Développement";"24";"55";"CDI";"55";;
 "Shopify";"Senior Software Developer";"7";"110";"CDI";"148";"105k€ de RSU sur 3 ans + 3k€ budget lifestyle annuel";
-"Veepee";"Lead Developer";"9";"71,5";"CDI";"71,5";"71,5k€ de fixe brut + 10% bonus de ce brut par an sur objectifs";"Selon la team, l'équilibre pro/perso est vraiment correct";
+"Veepee";"Lead Developer";"9";"71.5";"CDI";"71.5";"71,5k€ de fixe brut + 10% bonus de ce brut par an sur objectifs";"Selon la team, l'équilibre pro/perso est vraiment correct";

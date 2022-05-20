@@ -83,9 +83,9 @@ var tabledata = [
     "Entreprise": "Datadog",
     "Titre": "Senior Software Engineer",
     "Années XP": 10,
-    "Brut/CA (k€)": "91,5",
+    "Brut/CA (k€)": 91.5,
     "Contrat": "CDI",
-    "Package (k€)": "91,5",
+    "Package (k€)": 91.5,
     "Détails package": "9,900 DDOG stock option sur 4 ans + 2,781 DDOG RSU sur 3 ans",
     "Remarques libres": ""
   },
@@ -363,9 +363,9 @@ var tabledata = [
     "Entreprise": "Predictice",
     "Titre": "Head of Data",
     "Années XP": 17,
-    "Brut/CA (k€)": "77,5",
+    "Brut/CA (k€)": 77.5,
     "Contrat": "CDI",
-    "Package (k€)": "77,5",
+    "Package (k€)": 77.5,
     "Détails package": "J’attends encore les BSPCE",
     "Remarques libres": ""
   },
@@ -405,7 +405,7 @@ var tabledata = [
     "Années XP": 10,
     "Brut/CA (k€)": 66,
     "Contrat": "CDI",
-    "Package (k€)": "66,15",
+    "Package (k€)": 66.15,
     "Détails package": "Frais remote mobilier et matériel, 30€ d'internet chaque mois, ticket resto Swile, BSPCE, 10 RTT, 1 congé d'ancienneté tous les 2 ans...",
     "Remarques libres": "https://blog.yousign.io/posts/parcours-carriere-engineering-chez-yousign"
   },
@@ -822,7 +822,7 @@ var tabledata = [
   {
     "Entreprise": "Scale-up UK",
     "Titre": "Software Engineer",
-    "Années XP": "2,5",
+    "Années XP": 2.5,
     "Brut/CA (k€)": 72,
     "Contrat": "CDI",
     "Package (k€)": 84,
@@ -895,7 +895,7 @@ var tabledata = [
     "Années XP": 4,
     "Brut/CA (k€)": 70,
     "Contrat": "CDI",
-    "Package (k€)": "127,5",
+    "Package (k€)": 127.5,
     "Détails package": "70k€ + 230k€ BSPCE sur 4 ans (une fois l’intégralité vestée une fois leur coût d’excercice payé)",
     "Remarques libres": ""
   },
@@ -933,9 +933,9 @@ var tabledata = [
     "Entreprise": "Veepee",
     "Titre": "Lead Developer",
     "Années XP": 9,
-    "Brut/CA (k€)": "71,5",
+    "Brut/CA (k€)": 71.5,
     "Contrat": "CDI",
-    "Package (k€)": "71,5",
+    "Package (k€)": 71.5,
     "Détails package": "71,5k€ de fixe brut + 10% bonus de ce brut par an sur objectifs",
     "Remarques libres": "Selon la team, l'équilibre pro/perso est vraiment correct"
   }
