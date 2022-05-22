@@ -938,5 +938,95 @@ var tabledata = [
     "Package (k€)": 71.5,
     "Détails package": "71,5k€ de fixe brut + 10% bonus de ce brut par an sur objectifs",
     "Remarques libres": "Selon la team, l'équilibre pro/perso est vraiment correct"
+  },
+  {
+    "Entreprise": "Squadracer",
+    "Titre": "Software Engineer",
+    "Années XP": 3,
+    "Brut/CA (k€)": 55,
+    "Contrat": "CDI",
+    "Package (k€)": "",
+    "Détails package": "BSPCE + ticket restaurant + mutuelle + Navigo prise en charge à 100%",
+    "Remarques libres": ""
+  },
+  {
+    "Entreprise": "Squadracer",
+    "Titre": "Développeur",
+    "Années XP": 1,
+    "Brut/CA (k€)": 55,
+    "Contrat": "CDI",
+    "Package (k€)": 55,
+    "Détails package": "BSPCE 1%",
+    "Remarques libres": ""
+  },
+  {
+    "Entreprise": "Swile",
+    "Titre": "Head of Engineering",
+    "Années XP": 18,
+    "Brut/CA (k€)": 100,
+    "Contrat": "CDI",
+    "Package (k€)": "Confidentiel",
+    "Détails package": "Confidentiel (> 100k€ BSPCE)",
+    "Remarques libres": ""
+  },
+  {
+    "Entreprise": "",
+    "Titre": "Devops",
+    "Années XP": 8,
+    "Brut/CA (k€)": 120,
+    "Contrat": "Freelance",
+    "Package (k€)": 120,
+    "Détails package": "TJM 500€ sur 20j/mois en full-time donc",
+    "Remarques libres": ""
+  },
+  {
+    "Entreprise": "",
+    "Titre": "VP Eng",
+    "Années XP": 14,
+    "Brut/CA (k€)": "",
+    "Contrat": "CDI",
+    "Package (k€)": 85,
+    "Détails package": "Bonus",
+    "Remarques libres": ""
+  },
+  {
+    "Entreprise": "",
+    "Titre": "Data engineer",
+    "Années XP": 6,
+    "Brut/CA (k€)": 50,
+    "Contrat": "CDI",
+    "Package (k€)": 55,
+    "Détails package": "Participation, 100% du titre de transport, tickets resto",
+    "Remarques libres": ""
+  },
+  {
+    "Entreprise": "OVHcloud",
+    "Titre": "SRE",
+    "Années XP": 5,
+    "Brut/CA (k€)": 51,
+    "Contrat": "CDI",
+    "Package (k€)": 67,
+    "Détails package": "Convention collective de la métallurgie, Intéressement, Participation, Gympass, Ticket restaurants, CSE/Meyclub (+600€ dont 150€ vacances, 200€ pour sport, Cinéma, Culture, Noël, etc), Berceaux de crèche (+réduction tarifaire), Indemnité Kilométrique Vélo annuel, 13ème mois, Equipement pour télétravail (dock, écrans), subvention équipement bureau/télétravail, Compte Epargne Temps (CET), réduction location SiXT",
+    "Remarques libres": ""
+  },
+  {
+    "Entreprise": "Molotov TV",
+    "Titre": "Software Backend Engineer",
+    "Années XP": 6,
+    "Brut/CA (k€)": "52,5",
+    "Contrat": "CDI",
+    "Package (k€)": "52,5",
+    "Détails package": "",
+    "Remarques libres": ""
+  },
+  {
+    "Entreprise": "Elastic",
+    "Titre": "Senior SRE",
+    "Années XP": 14,
+    "Brut/CA (k€)": 80,
+    "Contrat": "CDI",
+    "Package (k€)": 110,
+    "Détails package": "RSU entre 30k$ et 45k$ selon les années",
+    "Remarques libres": ""
   }
 ];
