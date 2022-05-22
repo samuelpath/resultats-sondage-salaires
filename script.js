@@ -1013,9 +1013,9 @@ var tabledata = [
     "Entreprise": "Molotov TV",
     "Titre": "Software Backend Engineer",
     "Années XP": 6,
-    "Brut/CA (k€)": "52,5",
+    "Brut/CA (k€)": "52.5",
     "Contrat": "CDI",
-    "Package (k€)": "52,5",
+    "Package (k€)": "52.5",
     "Détails package": "",
     "Remarques libres": ""
   },
