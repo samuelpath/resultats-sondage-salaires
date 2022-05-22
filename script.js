@@ -14,6 +14,9 @@ function loadTable() {
         initialSort:[ //set the initial sort order of the data
           {column: "Brut/CA (k€)", dir:"desc"},
         ],
+        initialFilter:[
+          {field:"Contrat", type:"=", value:"CDI"}
+      ],
     });
 };
 
