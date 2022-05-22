@@ -160,7 +160,7 @@ var tabledata = [
     "Remarques libres": ""
   },
   {
-    "Entreprise": "Non renseigné",
+    "Entreprise": "",
     "Titre": "DevOps",
     "Années XP": 4,
     "Brut/CA (k€)": 52,
@@ -170,7 +170,7 @@ var tabledata = [
     "Remarques libres": ""
   },
   {
-    "Entreprise": "Non renseigné",
+    "Entreprise": "",
     "Titre": "Tech Lead",
     "Années XP": 7,
     "Brut/CA (k€)": 110,
@@ -230,7 +230,7 @@ var tabledata = [
     "Remarques libres": ""
   },
   {
-    "Entreprise": "Non renseigné",
+    "Entreprise": "",
     "Titre": "Senior Software Engineer",
     "Années XP": 10,
     "Brut/CA (k€)": 78,
@@ -300,7 +300,7 @@ var tabledata = [
     "Remarques libres": "Pour calculer le package total j'ai multiplié le nombre de RSU que j'ai par la valeur *à ce jour*  du \"200-Day Moving Average\" de DDOG (soit 148$), et j'ai divisé le tout par 5 ans (il faut que je reste en tout 5 ans à Datadog pour pouvoir vester toutes ces RSU). Néanmoins, l'action est très variable. Depuis que je suis à Datadog, le min est à 37$ et le max à 198$. C'est donc très dûr de faire une moyenne tant que c'est pas vendu."
   },
   {
-    "Entreprise": "Non renseigné",
+    "Entreprise": "",
     "Titre": "Developer Relations Engineer",
     "Années XP": 1,
     "Brut/CA (k€)": 100,
@@ -350,7 +350,7 @@ var tabledata = [
     "Remarques libres": "Je ne suis \"que\" software engineer, en passant senior j'espère bientôt le package va évoluer."
   },
   {
-    "Entreprise": "Non renseigné",
+    "Entreprise": "",
     "Titre": "Directeur technique",
     "Années XP": 20,
     "Brut/CA (k€)": 95,
@@ -490,7 +490,7 @@ var tabledata = [
     "Remarques libres": "Le package avec les RSU est assez volatile à Datadog. Pour être plus précis ça correspond à un batch initial de 300,000$ (sur 4 ans) à l'embauche puis un refresh de 300,000$ (toujours sur 4 ans) 2 ans plus tard."
   },
   {
-    "Entreprise": "Non renseigné",
+    "Entreprise": "",
     "Titre": "Devops",
     "Années XP": 10,
     "Brut/CA (k€)": 75,
@@ -620,7 +620,7 @@ var tabledata = [
     "Remarques libres": "En freelance je peux déduire des charges et travailler avec le matos et équipement que je veux"
   },
   {
-    "Entreprise": "Non renseigné",
+    "Entreprise": "",
     "Titre": "Senior developer",
     "Années XP": "",
     "Brut/CA (k€)": 200,
@@ -690,7 +690,7 @@ var tabledata = [
     "Remarques libres": ""
   },
   {
-    "Entreprise": "Non renseigné",
+    "Entreprise": "",
     "Titre": "Senior Dev Go",
     "Années XP": 17,
     "Brut/CA (k€)": 100,
@@ -810,7 +810,7 @@ var tabledata = [
     "Remarques libres": ""
   },
   {
-    "Entreprise": "Non renseigné",
+    "Entreprise": "",
     "Titre": "Architect",
     "Années XP": 20,
     "Brut/CA (k€)": 130,
