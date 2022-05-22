@@ -12,7 +12,7 @@ function loadTable() {
           { title: "Remarques libres", field: "Remarques libres" }
         ],
         initialSort:[ //set the initial sort order of the data
-          {column: "Package (k€)", dir:"desc"},
+          {column: "Brut/CA (k€)", dir:"desc"},
         ],
     });
 };
