@@ -28,7 +28,7 @@ var tabledata = [
     "Années XP": "",
     "Brut/CA (k€)": 110,
     "Contrat": "CDI",
-    "Package (k€)": 110,
+    "Package (k€)": 130,
     "Détails package": "RSU 20k€/ans",
     "Remarques libres": ""
   },

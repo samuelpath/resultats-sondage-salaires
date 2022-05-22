@@ -1,5 +1,5 @@
 "Entreprise";"Titre";"Années XP";"Brut/CA (k€)";"Contrat";"Package (k€)";"Détails package";"Remarques libres"
-"Datadog";"Software engineer senior ";;"110";"CDI";"110";"RSU 20k€/ans ";
+"Datadog";"Software engineer senior ";;"110";"CDI";"130";"RSU 20k€/ans ";
 "Grand compte dans le domaine de la mode";"Consultant web performance";;"160";"Freelance";"160";;
 "Stuart";"Senior Scala engineer";;"76";"CDI";"76";;
 "IDAaaS";"Dev";"10";"80";"CDI";"80";"BSPCE (pour 25k€ + 6k€ / an), mais je ne les compte pas dedans, on verra bien";
@@ -66,7 +66,7 @@
 "Beta Gouv";"Développeur Backend Python";"20";"130";"Freelance";"130";;"Au 4/5ème"
 "Lunex ";"Full stack dev ";"7";"94";"CDI";"120";"Bonus, stocks";
 "Treezor";"Lead Dev Go";"15";"73";"CDI";"75";"Prime de resultat de 3k€";
-"";"Senior Dev Go";"17";"100";"CDI";"300";"BSPCE, meilleur package wemind ";
+"";"Senior Dev Go";"17";"100";"CDI";"150";"BSPCE, meilleur package wemind ";
 "Lifen";"Senior front-end engineer";"12";"65";"CDI";"65";"12k BSPCE";
 "Meritis";"Architecte logiciel";"11";"65";"CDI";"65";"Salaire fixe uniquement";
 "Contentsquare ";"Customer Success on a Product for Dev";"15";"60";"CDI";"75";"60k€ + bonus on objective + BSPCE à deux ans + divers indemnités et soutiens pour un montant de 3k€/an";
