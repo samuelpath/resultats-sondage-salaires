@@ -5,7 +5,7 @@ function loadTable() {
           { title: "Entreprise", field: "Entreprise" },
           { title: "Titre", field: "Titre" },
           { title: "Années XP", field: "Années XP", sorter: "number" },
-          { title: "Brut/CA (k€)", field: "Brut/CA (k€)" },
+          { title: "Brut/CA (k€)", field: "Brut/CA (k€)", sorter: "number"},
           { title: "Contrat", field: "Contrat", headerFilter: true },
           { title: "Package (k€)", field: "Package (k€)", sorter: "number"  },
           { title: "Détails package", field: "Détails package" },
