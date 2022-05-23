@@ -44,7 +44,7 @@
 "Ingenico";"Software developer";"4";"50";"CDI";"55";;
 "Elastic";"Software engineer II";"4";"75";"CDI";"Difficile à calculer";"RSU (vesting sur 4 ans / 2 ans) + nouvelles acquisitions de RSUs chaque année ";
 "Comet";"CTO";"20";"115";"CDI";"115";"BSPCE";
-"DALKIA";"Lead développeur Ionic ";"15";"116";"Freelance";"116";"TJM DE 550€/jour sur 221 jour annuel, full télétravail et l’un des seuls de DALKIA";"En free-lance full télétravail depuis 2017. Je cumule avec un poste en Irlande 2j semaine en remote aussi."
+"Filiale grand groupe FR (secteur de l'énergie)";"Lead développeur Ionic ";"15";"116";"Freelance";"116";"TJM DE 550€/jour sur 221 jour annuel, full télétravail et l’un des seuls de l'entreprise";"En free-lance full télétravail depuis 2017. Je cumule avec un poste en Irlande 2j semaine en remote aussi."
 "Datadog";"Staff Software Engineer ";"20";"140";"CDI";"265";"RSU";"Le package avec les RSU est assez volatile à Datadog. Pour être plus précis ça correspond à un batch initial de 300,000$ (sur 4 ans) à l'embauche puis un refresh de 300,000$ (toujours sur 4 ans) 2 ans plus tard."
 "";"Devops";"10";"75";"CDI ";"110";"35k€ BCPE";
 "Daevel";"SRE";"10";"75";"CDI";"75";;
@@ -84,7 +84,7 @@
 "Maze";"Eng manager";"20";"120";"Portage salarial";"300";"Equivalent BSPCE + ben + mutuelle";
 "Datadog";"Engineering team lead";"7";"88";"CDI";"200";"Salaire + ~150k $ / ans en RSU ";
 "PrestaShop";"Développeur Core (projet open source)";"12";"57";"CDI";"57";;
-"Intérim digital";"Lead SRE";"10";"134";"CDI";"177";"100k€ de BSPCE sur 3 ans";" "
+"Intérim digital";"SRE senior";"10";"134";"CDI";"177";"100k€ de BSPCE sur 3 ans";" "
 "Grande entreprise e-commerce France";"Développeur";"8";"55";"CDI";"61";"10% de variable atteint chaque année car équipe de qualité et les objectifs sont en grande majorité des OKR d'équipe ";
 "Doctolib";"Staff Engineer";"4";"70";"CDI";"127.5";"70k€ + 230k€ BSPCE sur 4 ans (une fois l’intégralité vestée une fois leur coût d’excercice payé)";
 "Neo4j";"Developer";"13";"125";"CDI";"125";;
@@ -100,3 +100,11 @@
 "OVHcloud";"SRE";"5";"51";"CDI";"67";"Convention collective de la métallurgie, Intéressement, Participation, Gympass, Ticket restaurants, CSE/Meyclub (+600€ dont 150€ vacances, 200€ pour sport, Cinéma, Culture, Noël, etc), Berceaux de crèche (+réduction tarifaire), Indemnité Kilométrique Vélo annuel, 13ème mois, Equipement pour télétravail (dock, écrans), subvention équipement bureau/télétravail, Compte Epargne Temps (CET), réduction location SiXT"
 "Molotov TV";"Software Backend Engineer";"6";"52.5";"CDI";"52.5"
 "Elastic";"Senior SRE";"14";"80";"CDI";"110";"RSU entre 30k$ et 45k$ selon les années"
+"Licorne tech FR";"Engineering Director";"14";135";"CDI";"300";"Bonus sur objectifs : 20k€, Bspce : 145k€"
+"Squadracer";"CEO/CTO/dev";"20";"84";"CDI (président assimilé salariés)";"136";"50k€ de dividende -> 36k€ net d'impôt sur le revenu + 2k€ de prime de fin d'année ";"2 ans sans salaire (mais chômage) avant de se payer depuis 2 ans."
+"Veepee";"Software Engineer";"3";"50";"CDI";"60";"10% Bonus + Participation/Intéressement"
+"";"AI Engineer";"3";"90";"CDI";"115"
+"Startup";"Sr Dev Advocate";"13";"85";"CDI"
+"ESN Paris";"Développeur iOS / Chef de projet";"4";"52";"CDI";"58";"prime 2k€, transports 100%, TR 14e/j"
+"";"Senior Developer";"7";"100";"Freelance";"100"
+"Client dans le secteur de l'e-commerce";"Dev Back";"7";"70";"Freelance";"70";"4j/semaine"

@@ -473,13 +473,13 @@ var tabledata = [
     "Remarques libres": ""
   },
   {
-    "Entreprise": "DALKIA",
+    "Entreprise": "Filiale grand groupe FR (secteur de l'énergie)",
     "Titre": "Lead développeur Ionic",
     "Années XP": 15,
     "Brut/CA (k€)": 116,
     "Contrat": "Freelance",
     "Package (k€)": 116,
-    "Détails package": "TJM DE 550€/jour sur 221 jour annuel, full télétravail et l’un des seuls de DALKIA",
+    "Détails package": "TJM DE 550€/jour sur 221 jour annuel, full télétravail et l’un des seuls de l'entreprise",
     "Remarques libres": "En free-lance full télétravail depuis 2017. Je cumule avec un poste en Irlande 2j semaine en remote aussi."
   },
   {
@@ -698,7 +698,7 @@ var tabledata = [
     "Années XP": 17,
     "Brut/CA (k€)": 100,
     "Contrat": "CDI",
-    "Package (k€)": 300,
+    "Package (k€)": 150,
     "Détails package": "BSPCE, meilleur package wemind",
     "Remarques libres": ""
   },
@@ -874,7 +874,7 @@ var tabledata = [
   },
   {
     "Entreprise": "Intérim digital",
-    "Titre": "Lead SRE",
+    "Titre": "SRE senior",
     "Années XP": 10,
     "Brut/CA (k€)": 134,
     "Contrat": "CDI",
@@ -1016,9 +1016,9 @@ var tabledata = [
     "Entreprise": "Molotov TV",
     "Titre": "Software Backend Engineer",
     "Années XP": 6,
-    "Brut/CA (k€)": "52.5",
+    "Brut/CA (k€)": 52.5,
     "Contrat": "CDI",
-    "Package (k€)": "52.5",
+    "Package (k€)": 52.5,
     "Détails package": "",
     "Remarques libres": ""
   },
@@ -1030,6 +1030,86 @@ var tabledata = [
     "Contrat": "CDI",
     "Package (k€)": 110,
     "Détails package": "RSU entre 30k$ et 45k$ selon les années",
+    "Remarques libres": ""
+  },
+  {
+    "Entreprise": "Licorne tech FR",
+    "Titre": "Engineering Director",
+    "Années XP": 14,
+    "Brut/CA (k€)": 135,
+    "Contrat": "CDI",
+    "Package (k€)": 300,
+    "Détails package": "Bonus sur objectifs : 20k€, Bspce : 145k€",
+    "Remarques libres": ""
+  },
+  {
+    "Entreprise": "Squadracer",
+    "Titre": "CEO/CTO/dev",
+    "Années XP": 20,
+    "Brut/CA (k€)": 84,
+    "Contrat": "CDI (président assimilé salariés)",
+    "Package (k€)": 136,
+    "Détails package": "50k€ de dividende -> 36k€ net d'impôt sur le revenu + 2k€ de prime de fin d'année",
+    "Remarques libres": "2 ans sans salaire (mais chômage) avant de se payer depuis 2 ans."
+  },
+  {
+    "Entreprise": "Veepee",
+    "Titre": "Software Engineer",
+    "Années XP": 3,
+    "Brut/CA (k€)": 50,
+    "Contrat": "CDI",
+    "Package (k€)": 60,
+    "Détails package": "10% Bonus + Participation/Intéressement",
+    "Remarques libres": ""
+  },
+  {
+    "Entreprise": "",
+    "Titre": "AI Engineer",
+    "Années XP": 3,
+    "Brut/CA (k€)": 90,
+    "Contrat": "CDI",
+    "Package (k€)": 115,
+    "Détails package": "",
+    "Remarques libres": ""
+  },
+  {
+    "Entreprise": "Startup",
+    "Titre": "Sr Dev Advocate",
+    "Années XP": 13,
+    "Brut/CA (k€)": 85,
+    "Contrat": "CDI",
+    "Package (k€)": "",
+    "Détails package": "",
+    "Remarques libres": ""
+  },
+  {
+    "Entreprise": "ESN Paris",
+    "Titre": "Développeur iOS / Chef de projet",
+    "Années XP": 4,
+    "Brut/CA (k€)": 52,
+    "Contrat": "CDI",
+    "Package (k€)": 58,
+    "Détails package": "prime 2k€, transports 100%, TR 14e/j",
+    "Remarques libres": ""
+  },
+  {
+    "Entreprise": "",
+    "Titre": "Senior Developer",
+    "Années XP": 7,
+    "Brut/CA (k€)": 100,
+    "Contrat": "Freelance",
+    "Package (k€)": 100,
+    "Détails package": "",
+    "Remarques libres": ""
+  },
+  {
+    "Entreprise": "Client dans le secteur de l'e-commerce",
+    "Titre": "Dev Back",
+    "Années XP": 7,
+    "Brut/CA (k€)": 70,
+    "Contrat": "Freelance",
+    "Package (k€)": 70,
+    "Détails package": "4j/semaine",
     "Remarques libres": ""
   }
 ];
